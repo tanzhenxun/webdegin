@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Week 3 Sample</title>
+    <style>
+        body {
+            background-color: rgb(255, 255, 255);
+            font-family: 'Lato', sans-serif;
+            /* If Lato not available, use sans-serif */
+            font-size: 3vw;
+            /* vw is the size unit, it changes based on your current screen size. The bigger screen the font will be bigger and vice versa. */
+            
+        }
+
+        .titlebox {
+            height: 50vh;
+            /* 20% height of the full page. Again like the vw as above, vw is width, then vh is height */
+            text-align: left;
+        }
+
+        .container {
+            /* Target those elements containing class (dot) called 'container' */
+            display: flex;
+            /* This is the magic to make the 2 div align horizontally */
+            height: 80vh;
+            /* 80% height of the full page */
+        }
+
+        .container .box {
+            /* All the .box under .container */
+            width: 45%;
+            /* Each column would takes up 50%, so equally sharing spaces left and right */
+
+            display: flex;
+            /* refer here to get more details about flex usage: https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
+            align-items: center;
+            /* vertically center */
+        }
+
+        .box div {
+            /* All the div under .box */
+            width: 100%;
+        }
+
+        #box2 {
+            text-align: right;
+            height: 20vh;
+        }
+
+        h1 {
+            padding: 50px;
+            border: 8px black solid;
+            font-weight:bold;
+        }
+        .bolded { 
+            font-size: 30%;
+            font-weight: 20; 
+        
+        }
+        
+    </style>
+    <!-- this is HTML Comment 
+             The 2 lines below is to install Google Fonts. 
+             For all font in your homeworks, use Lato (as above)
+            -->
+            
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@30&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="container">
+        <div id="box1" class="box">
+            <div class = "titlebox">
+                
+            <h1>MERLAND FURNITURE 
+                <span class="bolded">Furniture,decor, and beyond</span>
+            </h1>
+            
+            </div>       
+        </div>
+        <div id="box2" class="box2">
+            <img src="image/h1pic.png" width="75%" />
+        </div>
+    </div>
+</body>
+
+</html>
