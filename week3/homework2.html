@@ -7,52 +7,42 @@
         body {
             background-color: rgb(255, 255, 255);
             font-family: 'Lato', sans-serif;
-            /* If Lato not available, use sans-serif */
-            font-size: 3vw;
-            font-weight: bolder;
-            /* vw is the size unit, it changes based on your current screen size. The bigger screen the font will be bigger and vice versa. */
+            font-size: 2vw;
         }
 
         .titlebox {
             height: 20vh;
-            /* 20% height of the full page. Again like the vw as above, vw is width, then vh is height */
             text-align: center;
-        }
+            margin: auto;
+            width: 40%;
 
-        .container {
-            /* Target those elements containing class (dot) called 'container' */
-            display: flex;
-            /* This is the magic to make the 2 div align horizontally */
-            height: 80vh;
-            /* 80% height of the full page */
-        }
-
-        .container .box {
-            /* All the .box under .container */
-            width: 50%;
-            /* Each column would takes up 50%, so equally sharing spaces left and right */
-
-            display: flex;
-            /* refer here to get more details about flex usage: https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
-            align-items: center;
-            /* vertically center */
-        }
-
-        .box div {
-            /* All the div under .box */
-            width: 100%;
-        }
-
-        #box2 {
-            text-align: right;
-            background-image: url("images/unsplash.jpg");
-            background-size: cover;
-            background-position: center center;
         }
 
         h1 {
-            padding: 10px;
+            padding: 30px;
             border: 8px black solid;
+            border-top: none;
+            margin: auto;
+            font-size: 150%;
+        }
+
+        .container {
+            display: flex;
+            height: 50vh;
+        }
+
+        .container .images {
+            background-size: cover;
+            background-position: center center;
+            display: flex;
+            text-align: center;
+        }
+
+        div .a {
+            margin-top: 30%;
+            margin-left: 15%;
+            margin-right: 30%;
+            font-size: medium;
         }
     </style>
     <!-- this is HTML Comment 
@@ -60,22 +50,42 @@
          For all font in your homeworks, use Lato (as above)
         -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@30&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@800&display=swap" rel="stylesheet">
 
 </head>
 
 <body>
     <div class="titlebox">
-        <h1>My Title</h1>
+        <h1>CUSTOMER REVIEWS</h1>
     </div>
     <div class="container">
-        <div id="box1" class="box">
-            <img src="images/unsplash.jpg" />
+        <div id="images1" class="images">
+            <div class="a">
+                <img src="image/h2pic1.png">
+                <h2>Murielle Blake</h2>
+                <p>Testimonials are short quotes from people who love your brand. It's a grat way to convince customers
+                    to try your services.</p>
+            </div>
         </div>
-        <div id="box2" class="box">
-            <div>Box 2</div>
+        <div id="images2" class="images">
+            <div class="a">
+                <img src="image/h2pic2.png">
+                <h2>Inna Tran</h2>
+                <p>Testimonials are short quotes from people who love your brand. It's a grat way to convince customers
+                    to try your services.</p>
+            </div>
+        </div>
+        <div id="images3" class="images">
+            <div class="a">
+                <img src="image/h2pic3.png">
+                <h2>Clyde Meily</h2>
+                <p>Testimonials are short quotes from people who love your brand. It's a grat way to convince customers
+                    to try your services.</p>
+            </div>
         </div>
     </div>
+
+
 </body>
 
 </html>
