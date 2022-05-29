@@ -8,14 +8,8 @@
             background-color: rgb(255, 255, 255);
             font-family: 'Lato', sans-serif;
             /* If Lato not available, use sans-serif */
-            font-size: 3vw;
+            font-size: 1vw;
             /* vw is the size unit, it changes based on your current screen size. The bigger screen the font will be bigger and vice versa. */
-        }
-
-        .titlebox {
-            height: 20vh;
-            /* 20% height of the full page. Again like the vw as above, vw is width, then vh is height */
-            text-align: center;
         }
 
         .container {
@@ -28,7 +22,7 @@
 
         .container .box {
             /* All the .box under .container */
-            width: 50%;
+            width: 20%;
             /* Each column would takes up 50%, so equally sharing spaces left and right */
 
             display: flex;
@@ -37,21 +31,31 @@
             /* vertically center */
         }
 
-        .box div {
+        .images {
             /* All the div under .box */
-            width: 100%;
-        }
-
-        #box2 {
-            text-align: right;
+            width: 55%;
             background-image: url("images/unsplash.jpg");
             background-size: cover;
             background-position: center center;
+            margin-top: 5%;
         }
 
-        h1 {
-            padding: 10px;
+        .text {
+            text-align: right;
+            margin-left: auto;
+            margin-top: auto;
+            font-size: medium;
+        }
+        h1{
+            font-size: 300%;
+        }
+        .bonder {
+            padding: 12px;
             border: 8px black solid;
+            border-right: none;
+            margin-left: -20%;
+            margin-right: 10%;
+            width: 110%;
         }
     </style>
     <!-- this is HTML Comment 
@@ -64,15 +68,20 @@
 </head>
 
 <body>
-    <div class="titlebox">
-        <h1>My Title</h1>
-    </div>
     <div class="container">
-        <div id="box1" class="box">
-            <img src="images/unsplash.jpg" />
+        <div id="box1" class="images">
+            <img src="image/h3pic.png" width="90%" />
         </div>
-        <div id="box2" class="box">
-            <div>Box 2</div>
+        <div id="box2" class="text">
+            <div class="bonder">
+                <h1>CONNECT WITH US</h1>
+                <h2>Mailing Address</h2>
+                <p>123 Anywhere.,Any City, State, Country 12345</p>
+                <h2>Email Address</h2>
+                <p>hello@reallyreatsite.com</p>
+                <h2>Phone Number</h2>
+                <p>(123) 456 7890</p>
+            </div>
         </div>
     </div>
 </body>
