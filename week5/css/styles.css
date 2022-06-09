@@ -1,0 +1,95 @@
+#container {
+    background-color: rgba(255, 246, 123, 0.553);
+    max-width: 1024px; /**/
+    margin: auto;
+}
+
+.header {
+    background-color: lightcyan;
+    text-align: center;
+    padding: 20px;
+    background-image: url("../images/seabg2.png");
+    background-size: cover;
+}
+
+/* The navbar container */
+.topnav {
+    display: flex;
+    background-color: #333;
+    /*flex-direction:  row-reverse;
+    flex-wrap: wrap;*/
+    justify-content: space-between;
+    
+}
+
+/* Navbar links */
+.topnav a {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;/**/
+    text-decoration: none;
+}
+
+/* Links - change color on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+    text-decoration: underline;
+}
+
+.right{
+    display: flex;
+    
+}
+
+/* Row */
+.row {
+    display: flex;
+    
+  }
+  
+  /* Column */
+  .column {
+    width: 33.33%;
+  }
+  
+  #column1 {
+    width: 200%;
+  }
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (600px wide or less) */
+@media screen and (min-width: 800px) {
+
+    .column {
+      width: 100%;
+      
+    }
+
+  }
+  @media screen and (max-width: 800px) {
+    .row {
+      flex-wrap: wrap;
+    }
+    .column {
+      width: 50%;
+    }
+    #column1{
+      width: 50%;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    .column {
+      width: 100%;
+    }
+    #column1{
+      width: 50%;
+    }
+  }
+  
+
+  
+  .footer{
+    display: flex;
+    background-color:  #F1F1F1;
+    justify-content: center;
+  }
