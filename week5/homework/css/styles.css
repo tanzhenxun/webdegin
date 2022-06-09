@@ -1,0 +1,52 @@
+#container {
+    margin: auto;
+    padding: 1%;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 2vw;
+}
+
+.topnvg{
+    display: flex;
+    background-color: black;
+
+}
+
+.topnvg a {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnvg a:hover {
+    background-color: #ddd;
+    color: black;
+    text-decoration: underline;
+}
+
+.mySlides {
+    display: flex;
+    width: 100%;
+    height: 100px;
+}
+
+.box{
+    display: flex;
+    
+    justify-content: space-between;
+    
+}
+
+.box p{
+    border: solid 5px;
+    width: 100%;
+    padding: 2%;
+    text-align: center;
+    font-size: 2vw;
+}
+
