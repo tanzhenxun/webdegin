@@ -1,0 +1,114 @@
+#container {
+    margin: auto;
+    padding: 1%;
+    max-height: 700px;
+    max-width: 1500px;
+}
+
+.header{
+    background-color: lightcyan;
+    text-align: center;
+    padding: 20px;
+    background-image: url("../images/seabg2.png");
+    background-size: cover;
+}
+
+.box{
+    display: flex;
+    
+}
+
+.menu{
+    width: 40%;
+    text-align: center;
+    padding: 1%;
+    display: block;
+    border: black solid 3px;
+    background-color: black;
+    color: white;
+    height: 51vh;
+
+}
+
+.menu a {
+    color: #f2f2f2;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: flex;
+}
+
+.menu a:hover {
+    background-color: #ddd;
+    color: black;
+    text-decoration: underline;
+}
+
+.box1{
+    flex: auto;
+
+}
+.box2{
+    display: flex;
+}
+
+.main{
+    border: solid 2px;
+    width: 50%;
+    height: 45vh;
+    text-align: justify;
+    padding: 1px;
+}
+
+.right{
+    border: solid 2px;
+    width: 50%;
+    height: 45vh;
+    text-align: justify;
+    padding: 1px;
+}
+
+.footer{
+    border: black solid 2px;
+    display: block;
+    text-align: center;
+    font-size: 120%;
+
+}
+
+
+  @media screen and (max-width: 1024px) {
+    .box2 {
+      flex-wrap: wrap;
+    }
+    .menu{
+        width: auto;
+    }
+    .main{
+        width: 100%;
+        height: auto;
+    }
+    
+    .right{
+        width: 100%;
+        height: auto;
+    }
+
+  }
+
+  @media screen and (max-width: 600px) {
+    .box{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .menu{
+        width: 100%;
+        display: block;
+        display: flex;
+        height: auto;
+        padding: 0%;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+  }
