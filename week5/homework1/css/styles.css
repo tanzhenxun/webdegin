@@ -1,0 +1,136 @@
+#container {
+    margin: auto;
+    padding: 1%;
+    max-width: 1024px; /**/
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 2vw;
+}
+
+.topnvg{
+    display: flex;
+    background-color: black;
+
+}
+
+.topnvg a {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnvg a:hover {
+    background-color: #ddd;
+    color: black;
+    text-decoration: underline;
+}
+
+.mySlides {
+    display: flex;
+    width: 100%;
+    height: 100px;
+}
+
+.box{
+    display: flex;
+}
+
+.box p{
+    border: solid 3px;
+    width: 100%;
+    padding: 2%;
+    text-align: center;
+    font-size: 2vw;
+    margin: 0%;
+}
+
+.box1{
+    display: flex;
+    
+}
+
+.content{
+    width: 75%;
+    height: auto;
+    text-align: justify;
+    padding-left: 1%;
+    padding-right: 1%;
+    border-left:black solid 2px ;
+    border-bottom: black solid 2px;
+}
+
+.sidebar{
+    text-align: center;
+    padding: 1vw;
+    width: 25%;
+    background-color:rgb(0, 0, 0)  ;
+    color: rgb(255, 255, 255);
+}
+
+.sidebar a{
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.sidebar a:hover {
+    background-color: #ddd;
+    color: black;
+    text-decoration: underline;
+}
+
+.footer{
+    display: flex;
+    background-color: #0b89f067;
+    justify-content: center;
+    border: black solid 2px;
+    border-top: none;
+}
+
+@media screen and (max-width: 600px) {
+
+    .topnvg{
+        display: flex;
+        background-color: black;
+    
+    }
+
+    .topnvg a {
+        font-size: 2.5vw;
+    }
+
+    .box {
+        display: block;
+    }
+    .box p{
+        width: auto;
+        font-size: 2vw;
+        margin: 0%;
+    }
+    .box1{
+        display: block;
+    }
+
+    .content{
+        border: none;
+        font-size: 3vw;
+    }
+    .sidebar{
+        width: auto;
+        font-size: 2vw;
+    }
+    .footer{
+        border: black solid 2px;
+        margin-top: 1%;
+    }
+
+    
+
+    
+  }
