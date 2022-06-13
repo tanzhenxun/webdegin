@@ -54,17 +54,17 @@
 .main{
     border: solid 2px;
     width: 50%;
-    height: 45vh;
+    height: auto;
     text-align: justify;
-    padding: 1px;
+    padding: 2%;
 }
 
 .right{
     border: solid 2px;
     width: 50%;
-    height: 45vh;
+    height: auto;
     text-align: justify;
-    padding: 1px;
+    padding: 2%;
 }
 
 .footer{
