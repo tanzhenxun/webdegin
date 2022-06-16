@@ -7808,7 +7808,9 @@ textarea.form-control-lg {
 
 .bg-primary {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
+  /*background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;*/
+  background-image: url(../images/bkgrd1.png);
+  background-size: cover;
 }
 
 .bg-secondary {
@@ -11508,9 +11510,17 @@ html {
   background-color: #1a252f;
 }
 
+#text-tittle{
+  color: #000;
+}
 
-.linkgh{
-  color: white;
+#linkgh{
+  color: black;
+  text-decoration: none;
+}
+
+#linkgh1{
+  color: black;
   text-decoration: none;
 }
 
