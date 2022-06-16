@@ -1,0 +1,80 @@
+.container{
+    position: relative;
+    background-image: url(../images/jungle1.png);
+    background-size: cover;
+    width: auto;
+    height: auto;
+    padding: 280px;
+}
+
+.topnvg{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: white;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topnvg .left{
+    text-align: center;
+    color: red;
+    padding: 5px 10px;
+    text-decoration: none;
+
+}
+
+.topnvg .right{
+    text-align: right;
+}
+
+.topnvg .right a{
+    color: black;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+.topnvg .right img{
+    width: 2%;
+    text-align: center;
+}
+
+.center{
+    position: relative;
+    color: white;
+    top: 40%;
+    width: auto;
+    text-align: center;
+    
+}
+
+.bottomleft{
+    position: absolute;
+    bottom: 50px;
+    left: 16px;
+    font-size: 18px;
+    color: white;
+    align-items: center;
+}
+
+.bottomright{
+    border: dashed white 2px;
+    position: absolute;
+    bottom: 50px;
+    right: 16px;
+    padding: 20px;
+    width: 400px;
+    font-size: 18px;
+    color: white;
+}
+
+.redword{
+    color: red;
+}
+
+.subtittle{
+    display: flex;
+
+}
