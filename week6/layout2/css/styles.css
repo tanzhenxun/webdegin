@@ -1,5 +1,16 @@
 .logo {
     grid-area: logo;
+    position: relative;
+    width: 70%;
+    min-height: 60px;
+}
+.phone{
+    grid-area: phone;
+    position: relative;
+    left: 350px;
+    width: 300px;
+    max-height: 20px;
+    top: 25px;
 }
 
 .menu {
@@ -57,8 +68,10 @@
 
 .container {
     display: grid;
+    position: relative;
     grid-template-areas:
-        'logo logo logo logo menu menu menu menu menu'
+        'logo logo logo logo phone phone phone phone phone'
+        'menu menu menu menu menu menu menu menu menu'
         'imageshow imageshow imageshow imageshow imageshow imageshow imageshow imageshow imageshow'
         'feat1 feat1 feat1 feat2 feat2 feat2 feat3 feat3 feat3'
         'sidebar sidebar sidebar sidebar textcontent textcontent textcontent textcontent textcontent'
