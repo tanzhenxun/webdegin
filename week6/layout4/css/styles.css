@@ -11,7 +11,7 @@
 .phone{
     grid-area: phone;
     position: relative;
-    left: 350px;
+    left: 360px;
     width: 300px;
     max-height: 20px;
 }
@@ -47,11 +47,12 @@
 
 .sidebar {
     grid-area: sidebar;
-    height: 100px;
+
 }
 
 .textcontent {
     grid-area: textcontent;
+    height: 200px;
 }
 
 .footer {
@@ -62,10 +63,11 @@
     display: grid;
     position: relative;
     grid-template-areas:
+        'blog blog blog blog blog blog blog blog blog'
         'logo logo logo logo phone phone phone phone phone'
         'logo logo logo logo menu menu menu menu menu'
-        'imageshow imageshow imageshow imageshow imageshow imageshow imageshow imageshow imageshow'
-        'sidebar sidebar sidebar sidebar textcontent textcontent textcontent textcontent textcontent'
+        'imageshow imageshow imageshow imageshow imageshow imageshow sidebar sidebar sidebar'
+        'textcontent textcontent textcontent textcontent textcontent textcontent sidebar sidebar sidebar'
         'footer footer footer footer footer footer footer footer footer';
     gap: 10px;
     background-color: #000000a0;
