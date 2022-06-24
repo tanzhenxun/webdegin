@@ -14,13 +14,13 @@
 @media screen and (max-width: 800px) {
     .fs-bg-top {
         background-size: 55vw;
-        
+
     }
 }
 
 @media screen and (max-width: 600px) {
     .fs-bg-top {
-        background-size: 60vw, 50vh;
+        background-size: 40%;
 
     }
 }
@@ -74,6 +74,22 @@
     }
 
     .logo img {
+        width: 10vw
+    }
+
+    .logo h3 {
+        font-size: 3vw;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+    .logo {
+        padding-top: 5px;
+        margin-left: 3vw;
+    }
+
+    .logo img {
         width: 15vw
     }
 
@@ -104,6 +120,77 @@
     color: black;
 }
 
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 40px;
+}
+
+@media screen and (max-height: 600px) {
+    .overlay a {
+        font-size: 20px
+    }
+
+    .overlay .closebtn {
+        font-size: 20px;
+        top: 15px;
+        right: 35px;
+    }
+}
+
+.topnvg .icon {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+
+    .topnvg a:not(:first-child) {
+        display: none;
+    }
+
+    .topnvg a.icon {
+        display: flex;
+
+    }
+}
+
 @media screen and (max-width: 1100px) {
     .topnvg {
         font-size: 1.5vw;
@@ -129,24 +216,28 @@
 .masthead {
     display: flex;
     align-items: center;
-    position: relative;
-    top: 50px;
 }
 
 @media screen and (max-width: 600px) {
     .masthead {
-        position: relative;
-        top: 20px;
+        margin-top: 10%;
+        display: block;
     }
+}
 
+@media screen and (max-width: 400px) {
+    .masthead {
+        display: block;
+    }
 }
 
 .side {
-    width: 10vw;
+    width: 10%;
 }
 
 .sidebar {
-    margin-left: 2vw;
+    position: fixed;
+    margin-left: 2%;
 }
 
 
@@ -209,6 +300,14 @@
 
 }
 
+
+@media screen and (max-width: 400px) {
+    .side {
+        display: none;
+    }
+
+}
+
 .header {
     width: 40%;
     font-size: 2vw;
@@ -220,11 +319,13 @@
 }
 
 .header p {
-    margin: 10px;
+    margin: auto;
     font-family: 'Montserrat', sans-serif;
 }
 
 .header .text {
+    margin: 0px;
+    margin-bottom: 20px;
     font-size: 1vw;
     width: 60%;
     color: darkgray;
@@ -233,7 +334,6 @@
 
 @media screen and (max-width: 800px) {
     .header h1 {
-        margin-left: 1vw;
         font-family: 'Lato', sans-serif;
     }
 
@@ -242,23 +342,33 @@
 @media screen and (max-width: 600px) {
     .header {
         width: 60%;
-        font-size: 4vw;
-    }
-
-    .header h1 {
-        margin-left: 2vw;
+        width: 100%;
+        display: block;
+        text-align: center;
     }
 
     .header p {
-        margin: 10px;
         font-family: 'Montserrat', sans-serif;
     }
 
     .header .text {
+        margin-bottom: 5px;
         font-size: 2vw;
         width: 100%;
     }
 
+}
+
+@media screen and (max-width: 400px) {
+    .header {
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+
+    .header .text {
+        margin-bottom: 5px;
+    }
 }
 
 .button {
@@ -296,46 +406,69 @@
 }
 
 .masthead .images img {
-    position: relative;
-    top: -60px;
-    left: 30px;
     width: 40vw;
     height: auto;
 }
 
 @media screen and (max-width: 600px) {
     .masthead .images img {
-        display: block;
-        position: relative;
-        top: 10px;
-        left: 0px;
-        width: 30vw;
+        width: 50vw;
         height: auto;
+    }
+
+    .images {
+        text-align: center;
     }
 
 }
 
+@media screen and (max-width: 400px) {
+    .masthead .images img {
+        width: 50vw;
+        height: auto;
+    }
+
+    .images {
+        text-align: center;
+    }
+}
+
 .mouse {
+    text-align: center;
+}
+
+.mouse1 {
     border: white solid 3px;
     padding: 10px 12px;
     cursor: pointer;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 60%;
-    position: absolute;
-    left: 48%;
+    width: 20px;
+    margin: auto;
 }
 
-.mouse img {
+.mouse1 img {
     width: 2vw;
 }
 
 @media screen and (max-width: 800px) {
-    .mouse {
+    .mouse1 {
         padding: 8px 10px;
     }
 
-    .mouse img {
-        width: 1.5vw;
+    .mouse1 img {
+        width: 3vw;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+    .mouse1 {
+        padding: 8px 10px;
+    }
+
+    .mouse1 img {
+        width: 4vw;
     }
 
 
@@ -345,7 +478,7 @@
 /* Second page*/
 .intro {
     display: flex;
-    margin-top: 170px;
+    margin-top: 110px;
     align-items: center;
 }
 
@@ -355,7 +488,7 @@
 
 @media screen and (max-width: 800px) {
     .intro {
-        margin-top: 150px;
+        margin-top: 120px;
     }
 
 
@@ -364,7 +497,7 @@
 @media screen and (max-width: 600px) {
     .intro {
         display: block;
-        margin-top: 170px;
+        margin-top: 130px;
         text-align: center;
     }
 
@@ -373,6 +506,17 @@
     }
 }
 
+@media screen and (max-width: 600px) {
+    .intro {
+        display: block;
+        margin-top: 90px;
+        text-align: center;
+    }
+
+    .intro img {
+        width: 60vw;
+    }
+}
 
 .text-header {
     color: #5046e3d7;
@@ -421,14 +565,13 @@
 
 /* Thrid page*/
 .service {
-    margin: 170px 50px 0px 50px;
     font-size: 110%;
-
+    background-image: url('../images/who\ we\ are\ background@2x.png');
 }
 
 @media screen and (max-width: 600px) {
     .service {
-        margin: 130px 30px 0px 30px;
+        margin: auto;
     }
 }
 
@@ -456,11 +599,10 @@
     flex-wrap: wrap;
     justify-content: space-around;
     display: flex;
-
 }
 
 .offer-box {
-    margin: 10px 30px 30px 20px;
+    margin: 3%;
     padding: 30px;
     width: 18%;
     height: 400px;
@@ -470,6 +612,7 @@
     align-items: center;
     border-radius: 10%;
     position: relative;
+    background-color: white;
 }
 
 .offer-box img {
@@ -496,9 +639,8 @@
 
 @media screen and (max-width: 1100px) {
     .offer-box {
-        margin: 10px 10px 30px 10px;
+        margin: 5%;
         width: 30%;
-        height: 50vh;
     }
 
 
@@ -510,9 +652,8 @@
 
 @media screen and (max-width: 800px) {
     .offer-box {
-        margin: 10px 5px 30px 5px;
-        width: 40%;
-        height: 50vh;
+        width: 35%;
+        margin: 2%;
         padding: 2vw;
         border: rgb(255, 255, 255) solid 2px;
     }
@@ -528,15 +669,11 @@
 }
 
 @media screen and (max-width: 600px) {
-    .offerbox {
-        display: block;
-    }
 
     .offer-box {
-        margin: 10px 30px 30px 20px;
         padding: 30px;
         width: 70vw;
-        height: 55vh;
+        height: 65vh;
     }
 
     .offer-box h2 {
@@ -548,40 +685,41 @@
     }
 
     .moretext {
-        width: 40%;
         font-size: 3vw;
+    }
+}
+
+
+@media screen and (max-width: 400px) {
+
+    .offer-box {
+        height: 100vmin;
+    }
+
+    .offer-box h2 {
+        font-size: 6vw;
+    }
+
+    .offer-box p {
+        font-size: 4vw;
+    }
+
+    .moretext {
+        font-size: 3.5vw;
     }
 }
 
 /* Fourth page*/
 .price {
     background-color: #ECEAFF;
-    height: 80vh;
-}
-
-@media screen and (max-width: 1100px) {
-    .price {
-        height: 150vh;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .price {
-        height: 140vh;
-    }
-}
-
-@media screen and (max-width: 400px) {
-    .price {
-        height: 120%;
-    }
+    height: auto;
+    padding-top: 1%;
+    margin-top: 2%;
 }
 
 .price-text {
-    margin: 170px 130px 0px 130px;
+    margin: auto;
     text-align: center;
-    position: relative;
-    top: 30px;
 }
 
 .price-text h1 {
@@ -640,7 +778,9 @@
     }
 
     .price-box {
-        margin: 10px 0px 30px 0px;
+        margin: 4%;
+        margin-left: 0%;
+        margin-right: 0%;
         padding: 0px;
         padding-bottom: 15px;
         width: 100%;
@@ -656,17 +796,18 @@
 @media screen and (max-width: 800px) {
 
     .price-text {
-        margin: 120px 50px;
+        margin: 10px 50px;
     }
 }
 
 @media screen and (max-width: 600px) {
     .price-text {
-        margin: 120px 50px;
+        margin: 10px 50px;
     }
 
     .price-box {
-        border-radius: 20%;
+        border-radius: 10%;
+
     }
 
     .price-box h2 {
@@ -1025,7 +1166,7 @@ input[type=submit]:hover {
         text-decoration: none;
         padding: 5px;
     }
-    
+
 }
 
 .ftr-box3 {

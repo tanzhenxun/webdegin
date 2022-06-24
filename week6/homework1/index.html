@@ -10,12 +10,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/f9f6f2f33c.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <div class="container">
         <!--top page-->
-        <div class="fs-bg-top"> <!--Use max-width-->
+        <div class="fs-bg-top">
+            <!--Use max-width-->
             <!--logo and navigation-->
             <div class="top">
                 <div class="logo">
@@ -27,18 +29,32 @@
                     <a href="#">SERVICES</a>
                     <a href="#">PRICS</a>
                     <a href="#">CONTANT</a>
+                    <a href="javascript:void(0);" class="icon" onclick="openNav()">
+                        <i id="icon" class="fa-solid fa-water"></i>
+                    </a>
+                </div>
+
+                <div id="myNav" class="overlay">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i
+                            class="fa-solid fa-arrow-up-from-ground-water"></i></a>
+                    <div class="overlay-content">
+                        <a href="#">Home</a>
+                        <a href="#">SERVICES</a>
+                        <a href="#">PRICS</a>
+                        <a href="#">CONTANT</a>
+                    </div>
                 </div>
             </div>
             <!--Content-->
             <div class="masthead">
                 <div class="side">
                     <div class="sidebar">
-                    <a href="#"><img src="images/003-facebook@2x.png" alt="" /></a>
-                    <a href="#"><img src="images/002-google-plus@2x.png" alt="" /></a>
-                    <a href="#"><img src="images/001-twitter-logo-silhouette@2x.png" alt="" /></a>
-                    <a href="#"><img src="images/instagram@2x.png" alt="" /></a>
-                    <div class="slidebar line"></div>
-                </div>
+                        <a href="#"><img src="images/003-facebook@2x.png" alt="" /></a>
+                        <a href="#"><img src="images/002-google-plus@2x.png" alt="" /></a>
+                        <a href="#"><img src="images/001-twitter-logo-silhouette@2x.png" alt="" /></a>
+                        <a href="#"><img src="images/instagram@2x.png" alt="" /></a>
+                        <div class="slidebar line"></div>
+                    </div>
                 </div>
                 <div class="header">
                     <p> SOCIAL MEDIA <br>
@@ -57,7 +73,7 @@
             </div>
             <!--bottom mouse logo-->
             <div class="mouse">
-                <img src="images/mouse@2x.png">
+                <div class="mouse1"><img src="images/mouse@2x.png"></div>
             </div>
         </div>
         <!--Next Content-->
@@ -72,11 +88,7 @@
                     Media is now one of the most powerful marketinf too;s with the obility to communicate with a target
                     audience in real time.</p>
                 <p>It's 2019 time to sink or swim.</p>
-                <a href="#">
-                    <button type="button" class="button">
-                        SEE MORE
-                    </button>
-                </a>
+                <a href="#" class="button"> SEE MORE </a>
             </div>
         </div>
         <!--Service page-->
@@ -91,22 +103,14 @@
                     <h2>SOCIAL MEDIA MANAGEMENT</h2>
                     <p>Perfect for growing your brand's social community and engage with the right audience. We manager
                         everything from curation of the content to management of</p>
-                    <a href="#">
-                        <button type="button" class="button moretext">
-                            SEE MORE
-                        </button>
-                    </a>
+                    <a href="#" class="button moretext"> SEE MORE </a>
                 </div>
                 <div class="offer-box">
                     <img src="images/002-social-media@2x.png">
                     <h2>SOCIAL GROWTH CAMPAIGN</h2>
                     <p>Our social growth campaign will have your socials come alive. With constant growth and engagement
                         you will be sure to have the thriving you've been looking for.</p>
-                    <a href="#">
-                        <button type="button" class="button moretext">
-                            SEE MORE
-                        </button>
-                    </a>
+                    <a href="#" class="button moretext"> SEE MORE </a>
                 </div>
                 <div class="offer-box">
                     <img src="images/003-responsive@2x.png">
@@ -114,22 +118,14 @@
                     <p>Done right branding offers a company an edge over the competition. So what exactly is branding,
                         and why is it important for comparies to integrate a well-rounded branding and media strategy?
                     </p>
-                    <a href="#">
-                        <button type="button" class="button moretext">
-                            SEE MORE
-                        </button>
-                    </a>
+                    <a href="#" class="button moretext"> SEE MORE </a>
                 </div>
                 <div class="offer-box">
                     <img src="images/004-social-media-1@2x.png">
                     <h2>INFLUENCER MARKETING</h2>
                     <p>We will pair your business with influencer Marketing is the most effective way to reach a loyal
                         audience.</p>
-                    <a href="#">
-                        <button type="button" class="button moretext">
-                            SEE MORE
-                        </button>
-                    </a>
+                    <a href="#" class="button moretext"> SEE MORE </a>
                 </div>
                 <div class="offer-box">
                     <img src="images/007-analysis@2x.png">
@@ -137,11 +133,7 @@
                     <p>Our ad computer will bring you the result your looking for. From brand awareness campaigns to
                         lead funnels, we have got the tools to create the right ads for your business. Our re-targeting
                         campaigns will be sure to get your visitors coming back to your site.</p>
-                    <a href="#">
-                        <button type="button" class="button moretext">
-                            SEE MORE
-                        </button>
-                    </a>
+                    <a href="#" class="button moretext"> SEE MORE </a>
                 </div>
                 <div class="offer-box">
                     <img src="images/008-computer@2x.png">
@@ -149,11 +141,7 @@
                     <p>We can create and provide your company with the best content marketing for your socials to
                         improve online presence. Creating valuable and quality content helps boost conversiors and
                         imprive customer retention.</p>
-                    <a href="#">
-                        <button type="button" class="button moretext">
-                            SEE MORE
-                        </button>
-                    </a>
+                    <div><a href="#" class="button moretext"> SEE MORE </a></div>
                 </div>
             </div>
         </div>
@@ -253,6 +241,16 @@
             </div>
         </div>
     </div>
+
+    <script>
+        function openNav() {
+            document.getElementById("myNav").style.width = "100%";
+        }
+
+        function closeNav() {
+            document.getElementById("myNav").style.width = "0%";
+        }
+    </script>
 </body>
 
 </html>
