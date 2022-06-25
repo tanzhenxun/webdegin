@@ -480,6 +480,7 @@
     display: flex;
     margin-top: 110px;
     align-items: center;
+    
 }
 
 .intro img {
@@ -541,6 +542,7 @@
     margin-right: 10%;
     margin-left: 5%;
     font-size: 110%;
+    background-image: url('../images/who\ we\ are\ background@2x.png');
 }
 
 .intro-content h1 {
@@ -566,7 +568,7 @@
 /* Thrid page*/
 .service {
     font-size: 110%;
-    background-image: url('../images/who\ we\ are\ background@2x.png');
+    background-image: url('../images/background1.png');
 }
 
 @media screen and (max-width: 600px) {
