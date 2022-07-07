@@ -1,0 +1,69 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+form {
+    background-color: #DDF4EE;
+    width: 50vw;
+}
+fieldset{
+    padding: 5%;
+    margin-left: -20px;
+    margin-right: -20px;
+}
+
+legend{
+    font-size: 2vw;
+    color: #375B44;
+}
+
+p{
+    color: #678A75;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+.text{
+    color: #678A75;
+}
+.row_eml_tel{
+    display: flex;
+}
+
+.email {
+    width: 50%;
+    margin-right: 4px;
+}
+.phone {
+    width: 50%;
+}
+
+input[type=text], select{
+    width: 100%;
+    padding: 12px;
+    margin: 8px 2px;
+    display: inline-block;
+    border: 1px solid #375B44;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.center{
+    margin-top: 2vh;
+    text-align: center;
+}
+
+input[type=submit]{
+    color: white;
+    background-color: #23622B;
+    border: 1px solid #23622B;
+    border-radius: 50px;
+    padding: 2% 5%;
+}
+
+h1{
+    text-align: center;
+}
