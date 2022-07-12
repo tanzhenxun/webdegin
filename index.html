@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Assignment - My Profile</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://kit.fontawesome.com/f9f6f2f33c.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <!--top navigation-->
+        <div class="topbackgrd" id="home">
+            <div class="topnvg">
+                <p class="logo">TZXUN</p>
+                <div class="leftbar">
+                    <div class="nvg">
+                        <a href="#">Home</a>
+                        <a href="#">About</a>
+                        <a href="#">My Favourite</a>
+                        <a href="#">My Work</a>
+                        <a href="#">My Portfolio</a>
+                    </div>
+                    <div class="contact">
+                        <a href="#">Contact</a>
+                    </div>
+                    <div id="myNav" class="dropdown">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i
+                                class="fa-solid fa-xmark"></i></a>
+                        <div class="dropdown_lists">
+                            <a href="#home">Home</a>
+                            <a href="#">About</a>
+                            <a href="#">My Favourite</a>
+                            <a href="#">My Work</a>
+                            <a href="#">My Portfolio</a>
+                        </div>
+                    </div>
+                    <div class="menubar"  onclick="openNav()"><!--Give icon better and give top-->
+                        <i id="menuicon" class="fa-solid fa-bars"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <div class="toptext">
+                <div class="text">
+                    <h1>Hey friends -</h1>
+                    <p>I’m Tan Zhen Xun, This is my first time doing my PORTFOLIO.</p>
+                    <div class="about">
+                        <a href="#">About</a>
+                    </div>
+                </div>
+                <div class="personlogo">
+                    <img src="images/personalcricle.png" alt="">
+                </div>
+            </div>
+        
+        <!--Second Content-->
+        <div class="secondbg">
+            <div class="secondhd">
+                <h1>About Me</h1>
+            </div>
+            <div class="secondtext">
+                <div class="secondpic">
+                    <img src="images/study.png" alt="">
+                </div>
+                <div class="content">
+                    <p>My name is Tan Zhen Xun. As of June 2022, I've been studying in New Era University for three
+                        years, and I'm now pursuing Bachelor Degree in Software Engineering.</p>
+                    <div class="button">
+                        <a href="#">See More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Third Content-->
+        <div class="thirdbg">
+            <div class="thirdhd">
+                <h1>My Favourite</h1>
+            </div>
+            <div class="pic">
+                <div class="box">
+                    <img src="images/Web_design_Ass1.png" alt="">
+                    <p>Amination</p>
+                </div>
+                <div class="box">
+                    <img src="images/clash1.png" alt="">
+                    <p>Games</p>
+                </div>
+                <div class="box">
+                    <img src="images/sport.png" alt="">
+                    <p>Sports</p>
+                </div>
+            </div>
+        </div>
+        <div class="fourthbg">
+            <img src="images/paint.png" alt="">
+            <div class="fourthtext">
+                <h1>My Work</h1>
+                <p>Working with relatives teaching children draw</p>
+                <div class="button">
+                    <a href="#">See More</a>
+                </div>
+            </div>
+        </div>
+        <div class="fifthbg">
+            <div class="fifthhd">
+                <h1>My Portfolio</h1>
+            </div>
+            <div class="fifthtext">
+                <div class="text">
+                    <p>Record my first time do HTML and CSS exercise from Week 2 to Week 7</p>
+                    <div class="button">
+                        <a href="#">See More</a>
+                    </div>
+                </div>
+                <div class="pic">
+                    <img src="images/hpage_prjt.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="sixthbg">
+            <div class="sixthtext">
+                <div class="box1">
+                <div class="form">
+                    <h2>Get in Touch</h2>
+                    <form name="myForm" action="form_submit.html">
+                        <input type="text" name="email" placeholder="Your email" /><br>
+                        <select name="subject" placeholder="Subject">
+                            <option value="">-- Please Select --</option>
+                            <option value="asking_a_question">Asking a question</option>
+                            <option value="cooperation">Cooperation</option>
+                            <option value="design">Creative Design</option>
+                            <option value="other">Others</option>
+                        </select><br>
+                        <textarea name="bio" rows="4" cols="50" placeholder="Message"></textarea><br>
+                        <input type="submit" name="sbutton" value="SUBMIT NOW">
+                    </form>
+                </div>
+            </div>
+                <div class="text">
+                    <h1>Contact Me</h1>
+                    <p>Any question? Please contact me.</p>
+                    <div class="box2">
+                    <div class="round">
+                        <i class="fa-solid fa-phone"></i>
+                        <p>+60 16-3789245</p>
+                    </div>
+                    <div class="round">
+                        <i class="fa-solid fa-envelope"></i>
+                        <p><a href="mailto:tanzhenxun1118@e.newera.edu.my">tanzhenxun1118@e.newera.edu.my</a></p>
+                    </div>
+                    <div class="round">
+                        <i class="fa-solid fa-compass"></i>
+                        <p>B8/J/2-12, Venice Hill Tower 8, Taman Puteri, 43200 Cheras, Selangor</p>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+        <!--Footer-->
+        <div class="footerbg">
+            <div class="footnvg">
+                <p class="ftlogo">TZXUN</p>
+                <div class="left">
+                    <div class="nvg">
+                        <a href="#">Home</a>
+                        <a href="#">About Me</a>
+                        <a href="#">My Favourite</a>
+                        <a href="#">My Work</a>
+                        <a href="#">My Portfolio</a>
+                        <a href="#">Contact</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footmedia">
+                <div class="media">
+                    <div class="ftmedia">
+                        <a href="https://github.com/tanzhenxun"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <div class="ftmedia">
+                        <a href="https://www.facebook.com/xun.tan.31/about"><i class="fa-brands fa-facebook"></i></a>
+                    </div>
+                    <div class="ftmedia">
+                        <a href="https://www.instagram.com/tan315_x18/?hl=en"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <div class="ftmedia">
+                        <a href="mailto:tanzhenxun1118@e.newera.edu.my"><i class="fa-solid fa-envelope"></i></a>
+                    </div>
+                </div>
+                <div class="copyrgt">
+                    <p>© 2022 TZXun.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        function openNav() {
+            document.getElementById("myNav").style.height = "100%";
+        }
+
+        function closeNav() {
+            document.getElementById("myNav").style.height = "0%";
+        }
+    </script>
+</body>
+
+</html>
