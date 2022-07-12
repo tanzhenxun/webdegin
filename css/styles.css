@@ -408,6 +408,9 @@ body{
     font-size: 2vw;
     margin: 0px;
 }
+.thirdbg .pic .box a{
+    text-decoration: none;
+}
 
 @media screen and (max-width: 800px) {
     .thirdhd {

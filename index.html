@@ -17,9 +17,9 @@
                 <div class="leftbar">
                     <div class="nvg">
                         <a href="#">Home</a>
-                        <a href="#">About</a>
-                        <a href="#">My Favourite</a>
-                        <a href="#">My Work</a>
+                        <a href="about.html">About</a>
+                        <a href="favourite.html">My Favourite</a>
+                        <a href="work.html">My Work</a>
                         <a href="#">My Portfolio</a>
                     </div>
                     <div class="contact">
@@ -29,35 +29,36 @@
                         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i
                                 class="fa-solid fa-xmark"></i></a>
                         <div class="dropdown_lists">
-                            <a href="#home">Home</a>
-                            <a href="#">About</a>
-                            <a href="#">My Favourite</a>
-                            <a href="#">My Work</a>
+                            <a href="#">Home</a>
+                            <a href="about.html">About</a>
+                            <a href="favourity.html">My Favourite</a>
+                            <a href="work.html">My Work</a>
                             <a href="#">My Portfolio</a>
                         </div>
                     </div>
-                    <div class="menubar"  onclick="openNav()"><!--Give icon better and give top-->
+                    <div class="menubar" onclick="openNav()">
+                        <!--Give icon better and give top-->
                         <i id="menuicon" class="fa-solid fa-bars"></i>
                     </div>
                 </div>
             </div>
         </div>
-            <div class="toptext">
-                <div class="text">
-                    <h1>Hey friends -</h1>
-                    <p>I’m Tan Zhen Xun, This is my first time doing my PORTFOLIO.</p>
-                    <div class="about">
-                        <a href="#">About</a>
-                    </div>
-                </div>
-                <div class="personlogo">
-                    <img src="images/personalcricle.png" alt="">
+        <div class="toptext">
+            <div class="text">
+                <h1>Hey friends -</h1>
+                <p>I’m Tan Zhen Xun, This is my first time doing my PORTFOLIO.</p>
+                <div class="about">
+                    <a href="#aboutpage">About</a>
                 </div>
             </div>
-        
+            <div class="personlogo">
+                <img src="images/personalcricle.png" alt="">
+            </div>
+        </div>
+
         <!--Second Content-->
         <div class="secondbg">
-            <div class="secondhd">
+            <div class="secondhd" id="aboutpage">
                 <h1>About Me</h1>
             </div>
             <div class="secondtext">
@@ -68,7 +69,7 @@
                     <p>My name is Tan Zhen Xun. As of June 2022, I've been studying in New Era University for three
                         years, and I'm now pursuing Bachelor Degree in Software Engineering.</p>
                     <div class="button">
-                        <a href="#">See More</a>
+                        <a href="about.html">See More</a>
                     </div>
                 </div>
             </div>
@@ -80,16 +81,22 @@
             </div>
             <div class="pic">
                 <div class="box">
-                    <img src="images/Web_design_Ass1.png" alt="">
-                    <p>Amination</p>
+                    <a href="favourite.html">
+                        <img src="images/Web_design_Ass1.png" alt="">
+                        <p>Amination</p>
+                    </a>
                 </div>
                 <div class="box">
-                    <img src="images/clash1.png" alt="">
-                    <p>Games</p>
+                    <a href="favourite.html">
+                        <img src="images/clash1.png" alt="">
+                        <p>Games</p>
+                    </a>
                 </div>
                 <div class="box">
-                    <img src="images/sport.png" alt="">
-                    <p>Sports</p>
+                    <a href="favourite.html">
+                        <img src="images/sport.png" alt="">
+                        <p>Sports</p>
+                    </a>
                 </div>
             </div>
         </div>
@@ -99,7 +106,7 @@
                 <h1>My Work</h1>
                 <p>Working with relatives teaching children draw</p>
                 <div class="button">
-                    <a href="#">See More</a>
+                    <a href="work.html">See More</a>
                 </div>
             </div>
         </div>
@@ -122,39 +129,39 @@
         <div class="sixthbg">
             <div class="sixthtext">
                 <div class="box1">
-                <div class="form">
-                    <h2>Get in Touch</h2>
-                    <form name="myForm" action="form_submit.html">
-                        <input type="text" name="email" placeholder="Your email" /><br>
-                        <select name="subject" placeholder="Subject">
-                            <option value="">-- Please Select --</option>
-                            <option value="asking_a_question">Asking a question</option>
-                            <option value="cooperation">Cooperation</option>
-                            <option value="design">Creative Design</option>
-                            <option value="other">Others</option>
-                        </select><br>
-                        <textarea name="bio" rows="4" cols="50" placeholder="Message"></textarea><br>
-                        <input type="submit" name="sbutton" value="SUBMIT NOW">
-                    </form>
+                    <div class="form">
+                        <h2>Get in Touch</h2>
+                        <form name="myForm" action="form_submit.html">
+                            <input type="text" name="email" placeholder="Your email" /><br>
+                            <select name="subject" placeholder="Subject">
+                                <option value="">-- Please Select --</option>
+                                <option value="asking_a_question">Asking a question</option>
+                                <option value="cooperation">Cooperation</option>
+                                <option value="design">Creative Design</option>
+                                <option value="other">Others</option>
+                            </select><br>
+                            <textarea name="bio" rows="4" cols="50" placeholder="Message"></textarea><br>
+                            <input type="submit" name="sbutton" value="SUBMIT NOW">
+                        </form>
+                    </div>
                 </div>
-            </div>
                 <div class="text">
                     <h1>Contact Me</h1>
                     <p>Any question? Please contact me.</p>
                     <div class="box2">
-                    <div class="round">
-                        <i class="fa-solid fa-phone"></i>
-                        <p>+60 16-3789245</p>
+                        <div class="round">
+                            <i class="fa-solid fa-phone"></i>
+                            <p>+60 16-3789245</p>
+                        </div>
+                        <div class="round">
+                            <i class="fa-solid fa-envelope"></i>
+                            <p><a href="mailto:tanzhenxun1118@e.newera.edu.my">tanzhenxun1118@e.newera.edu.my</a></p>
+                        </div>
+                        <div class="round">
+                            <i class="fa-solid fa-compass"></i>
+                            <p>B8/J/2-12, Venice Hill Tower 8, Taman Puteri, 43200 Cheras, Selangor</p>
+                        </div>
                     </div>
-                    <div class="round">
-                        <i class="fa-solid fa-envelope"></i>
-                        <p><a href="mailto:tanzhenxun1118@e.newera.edu.my">tanzhenxun1118@e.newera.edu.my</a></p>
-                    </div>
-                    <div class="round">
-                        <i class="fa-solid fa-compass"></i>
-                        <p>B8/J/2-12, Venice Hill Tower 8, Taman Puteri, 43200 Cheras, Selangor</p>
-                    </div>
-                </div>
                 </div>
             </div>
         </div>
@@ -165,9 +172,9 @@
                 <div class="left">
                     <div class="nvg">
                         <a href="#">Home</a>
-                        <a href="#">About Me</a>
-                        <a href="#">My Favourite</a>
-                        <a href="#">My Work</a>
+                        <a href="about.html">About</a>
+                        <a href="favourite.html">My Favourite</a>
+                        <a href="work.html">My Work</a>
                         <a href="#">My Portfolio</a>
                         <a href="#">Contact</a>
                     </div>
