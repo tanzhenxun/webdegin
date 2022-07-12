@@ -1,4 +1,4 @@
-body{
+body {
     margin: auto;
 }
 
@@ -163,14 +163,14 @@ body{
 }
 
 
-.about {
+.work {
     background-color: #DAB88B;
     color: white;
     text-align: center;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
 }
 
-.about h1 {
+.work h1 {
     margin-top: 0px;
     padding-top: 10px;
     font-size: 50px;
@@ -178,286 +178,168 @@ body{
     margin-bottom: 5px;
 }
 
-.about p {
+.work p {
     margin: 0px 20vw;
     font-size: 20px;
 }
 
 @media screen and (max-width:700px) {
 
-    .about {
-        text-align: left;
+    .work {
         padding-bottom: 25px;
     }
 
-    .about h1 {
+    .work h1 {
         margin-left: 25px;
         margin-bottom: 10px;
         font-size: 40px;
     }
 
-    .about p {
+    .work p {
         margin: 0px 25px;
         font-size: 15px;
     }
 }
 
-
 .secondbg {
-    background-color: #FDF6EC;
+    background-image: url('../images/waterclour2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
 }
 
-.secondcontent {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.secondcontent .images {
-    padding: 40px;
-}
-
-.secondcontent .images img {
-    width: 40vw;
-    border-radius: 10%;
-}
-
-.secondcontent .text {
-    font-style: normal;
-    font-weight: 800;
-    font-size: 1.5vw;
-    line-height: 30px;
-    color: #5C2000;
-    max-width: 500px;
-}
-
-@media screen and (max-width:700px) {
-    .secondcontent .text {
-        font-size: 2vw;
-
-        line-height: normal;
-    }
-
-    .secondcontent .text p {
-        margin: 2px 0px;
-
-    }
-}
-
-@media screen and (max-width:500px) {
-
-    .secondcontent {
-        display: block;
-    }
-
-    .secondcontent .images {
-        padding: 40px 0px 10px 0px;
-        text-align: center;
-    }
-
-    .secondcontent .images img {
-        max-width: 80%;
-        width: auto;
-    }
-
-    .secondcontent .text {
-        font-size: 4vw;
-        line-height: normal;
-        display: flex;
-        justify-content: center;
-    }
-
-    .secondcontent .text box p {
-        margin: auto;
-    }
-
-    .secondcontent .text .box {
-        max-width: 80%;
-        width: auto;
-    }
-
-
-}
-
-hr {
-    max-width: 90%;
-}
-
-.thirdcontent {
-    width: auto;
-    padding: 0px 40px;
-}
-
-
-.thirdhd h1 {
+.hd h1 {
     color: rgba(0, 0, 0, 0.62);
+    margin: 0%;
+    padding: 20px 10px;
 }
 
-.firtext {
-    font-size: 1.8vw;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-}
-
-.firtext p {
-    color: #5C2000;
-    width: auto;
-    max-width: 60%;
-}
-
-.firpic {
-    display: flex;
-    justify-content: center;
-}
-
-.firpic img {
-    width: 70vw;
-    height: 50vh;
-    object-fit: cover;
-    border-radius: 63px;
-}
-
-@media screen and (max-width:700px) {
-    .firtext {
-        font-size: 2vw;
-    }
-
-}
-
-@media screen and (max-width:500px) {
-
-    .thirdhd h1 {
-        text-align: center;
-        color: rgba(0, 0, 0, 0.62);
-    }
-
-    .firtext {
-        font-size: 15px;
-        text-align: center;
-    }
-
-    .firtext p {
-        max-width: 100%;
-    }
-
-    .firpic img {
-        width: 70vw;
-        height: 40vh;
-        border-radius: 30px;
-    }
-}
-
-.secondtext{
+.box1 {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
-.secondtext .text{
-    width: 50%;
-    color: #5C2000;
-    font-size: 1.8vw;
-}
-
-.secondtext .images{
-    padding: 30px;
+.box1 .img {
     width: auto;
 }
 
-.secondtext .images img{
-    border-radius: 50px;
-    width: 25vw;
+.box1 .img img {
+    width: 400px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 40px;
 }
 
-hr.line2{
-    display: none;
+.box1 .firtext {
+    font-size: 1.8vw;
+    max-width: 40%;
 }
 
-@media screen and (max-width:700px) {
-    .secondtext .text{
-        font-size: 2.3vw;
-    }
-    
-    .secondtext .images img{
-        border-radius: 40px;
+.box1 .firtext p {
+    color: #5C2000;
+}
+
+@media screen and (max-width:900px) {
+    .box1 .img img {
         width: 30vw;
+        height: 50vh;
+        object-fit: cover;
+        border-radius: 40px;
     }
-    
+
+    .box1 .firtext {
+        font-size: 3.5vw;
+        max-width: 40%;
+    }
 }
 
 @media screen and (max-width:500px) {
-    hr.line2{
-        margin-top: 35px;
-        display: block;
-    }
-    .secondtext{
-        display: block;
+
+    .hd h1 {
         text-align: center;
     }
-    
-    .secondtext .text{
+
+    .box1 {
+        display: block;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .box1 .img {
         display: flex;
         justify-content: center;
-        width: auto;
-        font-size: 15px;
     }
-    
-    .secondtext .text p{
-        width: 90%;
-        text-align: left;
-    }
-    .secondtext .images{
-        padding: 0px;
-        width: auto;
-    }
-    
-    .secondtext .images img{
-        border-radius: 30px;
+
+
+    .box1 .img img {
+        text-align: center;
         width: 70vw;
         height: 50vh;
         object-fit: cover;
+        border-radius: 30px;
     }
-    
+
+    .box1 .firtext {
+        text-align: justify;
+        font-size: 20px;
+        max-width: 100%;
+    }
+
+    .box1 .firtext p {
+        margin: 20px 30px;
+    }
+
 }
 
-.thirdtext{
-    color: #5C2000;
+hr.line2 {
+    margin-top: 35px;
+    display: block;
+}
+
+
+.box2 {
     text-align: center;
-    display: flex;
-    justify-content: center;
-    padding-top: 20px;
-    padding-bottom: 50px;
 }
 
-.thirdtext .text{
-    background-image: url('../images/pexels-karolina-grabowska-4386404\ 1.png');
-    background-repeat:no-repeat;
-    background-size: 100% 100%;
-    border-radius: 30px;
-    max-width: 80%;
-}
-
-.thirdtext .text p{
+.box2 .text {
     font-size: 1.8vw;
-    padding: 100px;
 }
 
-@media screen and (max-width: 700px) {
-    .thirdtext .text p{
-        font-size: 2.3vw;
-        padding: 80px;
+.box2 .text p {
+    color: #5C2000;
+}
+
+.box2 .img {
+    width: auto;
+}
+
+.box2 .img img {
+    width: 65vw;
+    border-radius: 20px;
+}
+
+@media screen and (max-width:900px) {
+    .box2 .text {
+        font-size: 3.5vw;
     }
 }
 
-@media screen and (max-width: 500px) {
-    .thirdtext .text p{
-        font-size: 15px;
-        padding: 50px;
+@media screen and (max-width:500px) {
+
+    .box2 .text {
+        font-size: 20px;
+    }
+
+    .box2 .text p {
+        color: #5C2000;
+    }
+
+    .box2 .img img {
+        width: 300px;
+        border-radius: 20px;
     }
 }
-
-
 
 .footerbg {
     background-color: #B7CADB;
@@ -599,4 +481,3 @@ hr.line2{
 }
 
 }
-
