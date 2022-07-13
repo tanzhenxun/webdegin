@@ -1,0 +1,276 @@
+body {
+    margin: auto;
+    font-family: 'Lato', sans-serif;
+}
+
+.container {
+    width: auto;
+}
+
+.topbackgrd {
+    background-color: #DAB88B;
+    top: 0%;
+    position: sticky;
+    z-index: 1;
+}
+
+.topnvg {
+    position: sticky;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1000vw;
+    font-size: 1.5vw;
+}
+
+.logo {
+    position: sticky;
+    margin-left: 6vw;
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.leftbar {
+    display: flex;
+    margin-right: 7vw;
+}
+
+.topnvg .nvg {
+    padding: 0px 15px;
+    margin-right: 6vw;
+}
+
+.topnvg .nvg a {
+    margin-left: 15px;
+    margin-right: 15px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.topnvg .nvg a:hover {
+    color: rgb(234, 234, 234);
+    text-decoration: none;
+}
+
+.contact {
+    margin-right: 3vw;
+
+}
+
+.contact a {
+    background: rgba(255, 200, 171, 0.31);
+    border: 6px solid rgba(255, 255, 255, 0.295743);
+    border-radius: 6px;
+    padding: 0.5vh 2vw;
+    color: white;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    background: rgba(255, 255, 255, 0.295743);
+    color: black;
+}
+
+.menubar {
+    display: none;
+}
+
+@media screen and (max-width: 850px) {
+    .topnvg .nvg {
+        margin-right: 0vw;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .topnvg .nvg {
+        display: none;
+    }
+
+    .topnvg .contact {
+        display: none;
+    }
+
+    .menubar {
+        display: block;
+        border: 2px solid white;
+        padding: 5px;
+        border-radius: 10%;
+    }
+
+    .menubar i {
+        font-size: 20px;
+    }
+
+
+    .topnvg {
+        max-width: 100%;
+        margin: auto;
+    }
+
+}
+
+
+.dropdown {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(218, 184, 139, 0.9);
+    overflow-y: hidden;
+    transition: 0.5s;
+}
+
+.dropdown_lists {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.dropdown a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #5C2000;
+    display: block;
+    transition: 0.3s;
+}
+
+.dropdown a:hover,
+.overlay a:focus {
+    color: #f1f1f1;
+}
+
+.dropdown .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+    .dropdown a {
+        font-size: 20px
+    }
+
+    .dropdown .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+}
+
+.portfolio {
+    background-color: #DAB88B;
+    color: white;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.portfolio h1 {
+    margin-top: 0px;
+    padding-top: 10px;
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 5px;
+}
+
+.portfolio p {
+    margin: 0px 20vw;
+    font-size: 20px;
+}
+
+@media screen and (max-width:700px) {
+
+    .portfolio {
+        padding-bottom: 25px;
+    }
+
+    .portfolio h1 {
+        margin-left: 25px;
+        margin-bottom: 10px;
+        font-size: 40px;
+    }
+
+    .portfolio p {
+        margin: 0px 25px;
+        font-size: 15px;
+    }
+}
+
+.secondbg {
+    background-color: #FDF6EC;
+    padding: 20px;
+}
+
+.hd h1 {
+    color: rgba(0, 0, 0, 0.62);
+    margin: 0%;
+    padding: 20px 50px;
+    text-align: center;
+}
+@media screen and (max-width:900px) {
+    .hd h1 {
+        padding: 3vw 7vh;
+    }
+}
+
+.gallery-box{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.gallery{
+    width: auto;
+    position: relative;
+    margin: 10px;
+}
+
+.gallery img{
+    width: 340px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.gallery .box{
+    position: absolute;
+    color: white;
+    width: 70%;
+    bottom: 5%;
+    left: 5%;
+}
+
+.gallery .box .box-btn{
+    background-color: white;
+    color:#5C2000;
+    display: flex;
+    margin: 5px 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    width: 130px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.gallery .box .box-btn p{
+    margin: 0%;
+}
+
+.gallery .box .box-text{
+    font-size: 30px;
+    font-weight: 900;
+    margin-left: 15%;
+}
+
+.gallery .box .box-text p{
+    margin: 0%;
+}
