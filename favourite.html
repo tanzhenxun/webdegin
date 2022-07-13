@@ -1,49 +1,80 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>My Work</title>
+
+<head>
+    <title>My Favourite</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/favourite.css">
-    <script src="https://kit.fontawesome.com/f9f6f2f33c.js" crossorigin="anonymous"></script>        
-    </head>
-    <body>
-        <div class="container">
-            <!--top navigation-->
-            <div class="topbackgrd">
-                <div class="topnvg">
-                    <p class="logo">TZXUN</p>
-                    <div class="leftbar">
-                        <div class="nvg">
-                            <a href="#">Home</a>
+    <script src="https://kit.fontawesome.com/f9f6f2f33c.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <!--top navigation-->
+        <div class="topbackgrd">
+            <div class="topnvg">
+                <p class="logo">TZXUN</p>
+                <div class="leftbar">
+                    <div class="nvg">
+                        <a href="#">Home</a>
+                        <a href="#">About</a>
+                        <a href="#">My Favourite</a>
+                        <a href="#">My Work</a>
+                        <a href="#">My Portfolio</a>
+                    </div>
+                    <div class="contact">
+                        <a href="#">Contact</a>
+                    </div>
+                    <div id="myNav" class="dropdown">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i
+                                class="fa-solid fa-xmark"></i></a>
+                        <div class="dropdown_lists">
+                            <a href="#home">Home</a>
                             <a href="#">About</a>
                             <a href="#">My Favourite</a>
                             <a href="#">My Work</a>
                             <a href="#">My Portfolio</a>
                         </div>
-                        <div class="contact">
-                            <a href="#">Contact</a>
-                        </div>
-                        <div id="myNav" class="dropdown">
-                            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i
-                                    class="fa-solid fa-xmark"></i></a>
-                            <div class="dropdown_lists">
-                                <a href="#home">Home</a>
-                                <a href="#">About</a>
-                                <a href="#">My Favourite</a>
-                                <a href="#">My Work</a>
-                                <a href="#">My Portfolio</a>
-                            </div>
-                        </div>
-                        <div class="menubar" onclick="openNav()">
-                            <!--Give icon better and give top-->
-                            <i id="menuicon" class="fa-solid fa-bars"></i>
-                        </div>
+                    </div>
+                    <div class="menubar" onclick="openNav()">
+                        <!--Give icon better and give top-->
+                        <i id="menuicon" class="fa-solid fa-bars"></i>
                     </div>
                 </div>
             </div>
-            <div class="favourite">
-                <h1>My Favourite</h1>
+        </div>
+        <div class="favourite">
+            <h1>My Favourite</h1>
+        </div>
+        <div class="secondbg">
+            <div class="secondcontent">
+                <div class="hd" id="animation">
+                    <h1>Animation</h1>
+                </div>
+                <div class="firtext">
+                    <p>Since childhood, I have loved the exaggerated, simple shapes and superhuman stunts of anime on
+                        television. And now i still like it to see animation and sometime imagine myself as the
+                        protagonist defeating the enemy and so on. </p>
+                </div>
+                <div class="box1">
+                    <div class="text">
+                        <p>Here's a list of my favorite anime:</p>
+                        <ul>
+                            <li><p>Katekyo Hitman Reborn!</p></li>
+                            <li><p>One Piece</p></li>
+                            <li><p>Naruto</p></li>
+                            <li><p>Fullmetal Alchemist: Brotherhood</p></li>
+                            <li><p>Fairy Tail</p></li>
+                            <li><p>Bleach</p></li>
+                        </ul>
+                    </div>
+                    <div class="img">
+                        <img src="images/Web_design_Ass1.png" alt="">
+                    </div>
+                </div>
             </div>
         </div>
-    </body>
+    </div>
+</body>
+
 </html>
