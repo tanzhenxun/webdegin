@@ -233,8 +233,8 @@ body {
 }
 
 .gallery img{
-    width: 340px;
-    height: 400px;
+    width: 380px;
+    height: 420px;
     object-fit: cover;
     border-radius: 20px;
 }
@@ -268,7 +268,7 @@ body {
 .gallery .box .box-text{
     font-size: 30px;
     font-weight: 900;
-    margin-left: 15%;
+    margin-left: 20px;
 }
 
 .gallery .box .box-text p{
