@@ -23,11 +23,16 @@ body{
     font-size: 1.5vw;
 }
 
+.topnvg a {
+    text-decoration: none;
+}
+
 .logo {
     position: sticky;
-    margin-left: 6vw;
+    margin: 2vw 0px 2vw 6vw;
     font-weight: 800;
     font-size: 30px;
+    color: white;
 }
 
 .leftbar {
