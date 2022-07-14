@@ -1,220 +1,568 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <title>Assignment - My Profile</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css">
-    <script src="https://kit.fontawesome.com/f9f6f2f33c.js" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap" rel="stylesheet" />
-    <link rel="shortcut icon" href="images/icon.png" type="image/x-icon">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>My Homepage</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet"
+        type="text/css" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
 </head>
 
-<body>
-    <div class="container">
-        <!--top navigation-->
-        <div class="topbackgrd" id="home">
-            <div class="topnvg">
-                <p class="logo">TZXUN</p>
-                <div class="leftbar">
-                    <div class="nvg">
-                        <a href="#">Home</a>
-                        <a href="about.html">About</a>
-                        <a href="favourite.html">My Favourite</a>
-                        <a href="work.html">My Work</a>
-                        <a href="portfolio.html">My Portfolio</a>
-                    </div>
-                    <div class="contact">
-                        <a href="#">Contact</a>
-                    </div>
-                    <div id="myNav" class="dropdown">
-                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i
-                                class="fa-solid fa-xmark"></i></a>
-                        <div class="dropdown_lists">
-                            <a href="#">Home</a>
-                            <a href="about.html">About</a>
-                            <a href="favourite.html">My Favourite</a>
-                            <a href="work.html">My Work</a>
-                            <a href="portfolio.html">My Portfolio</a>
-                            <a href="#">Contact</a>
+<body id="page-top">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand" href="#page-top">Tan Zhen Xun</a>
+            <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button"
+                data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive"
+                aria-expanded="false" aria-label="Toggle navigation">
+                Menu
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
+                            href="#portfolio">Projects</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Masthead-->
+    <header class="masthead bg-primary text-center">
+        <div class="container d-flex align-items-center flex-column">
+            <!-- Masthead Avatar Image-->
+            <img class="masthead-avatar mb-5" src="assets/TAN ZHEN XUN photo.jpg" alt="..." />
+            <!-- Masthead Heading-->
+            <h1 class="masthead-heading text-uppercase mb-0" id="text-tittle"><span>Tan Zhen Xun</span></h1>
+            <!-- Icon Divider-->
+            <div class="divider-custom divider-light">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                <div class="divider-custom-line"></div>
+            </div>
+            <!-- Masthead Subheading-->
+            <div class="masthead-subheading font-weight-light mb-0">
+                <p>2220441-BSE<br>
+                    <a href="mailto:tanzhenxun1118@e.newera.edu.my" id="linkgh">
+                        <span>tanzhenxun1118@e.newera.edu.my</span>
+                    </a><br>
+                    <a href="https://github.com/tanzhenxun" target="_blank" id="linkgh1">
+                        <span>My Github Acconut</span></a>
+                </p>
+            </div>
+        </div>
+    </header>
+    <!-- Portfolio Section-->
+    <section class="page-section portfolio" id="portfolio">
+        <div class="container">
+            <!-- Portfolio Section Heading-->
+            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Projects</h2>
+            <!-- Icon Divider-->
+            <div class="divider-custom">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                <div class="divider-custom-line"></div>
+            </div>
+            <!-- Portfolio Grid Items-->
+            <div class="row justify-content-center">
+                <!-- Portfolio Item 1-->
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
+                        <div
+                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white" style="font-size: 200%;">
+                                <i>WEEK 1</i>
+                            </div>
                         </div>
+                        <img class="img-fluid" src="assets/img/portfolio/week1F1.png" alt="..." />
                     </div>
-                    <div class="menubar" onclick="openNav()">
-                        <!--Give icon better and give top-->
-                        <i id="menuicon" class="fa-solid fa-bars"></i>
+                </div>
+                <!-- Portfolio Item 2-->
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
+                        <div
+                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white" style="font-size: 200%;">
+                                <i>WEEK 2</i>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="assets/img/portfolio/week2.png" alt="..." />
+                    </div>
+                </div>
+                <!-- Portfolio Item 3-->
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
+                        <div
+                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white" style="font-size: 200%;">
+                                <i>WEEK 3</i>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="assets/img/portfolio/week3.png" alt="..." />
+                    </div>
+                </div>
+                <!-- Portfolio Item 4-->
+                <div class="col-md-6 col-lg-4 mb-5 ">
+                    <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal4">
+                        <div
+                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white" style="font-size: 200%;">
+                                <i>WEEK 4</i>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="assets/img/portfolio/week4.png" alt="..." />
+                    </div>
+                </div>
+                <!-- Portfolio Item 5-->
+                <div class="col-md-6 col-lg-4 mb-5 ">
+                    <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal5">
+                        <div
+                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white" style="font-size: 200%;">
+                                <i>WEEK 5</i>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="assets/img/portfolio/week5.png" alt="..." />
+                    </div>
+                </div>
+                <!-- Portfolio Item 6-->
+                <div class="col-md-6 col-lg-4 mb-5 ">
+                    <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal6">
+                        <div
+                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white" style="font-size: 200%;">
+                                <i>WEEK 6</i>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="assets/img/portfolio/week6.png" alt="..." />
+                    </div>
+                </div>
+                <!-- Portfolio Item 7-->
+                <div class="col-md-6 col-lg-4 mb-5 ">
+                    <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal7">
+                        <div
+                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white" style="font-size: 200%;">
+                                <i>WEEK 7</i>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="images/Screenshot 2022-06-23 165916.png" alt="..." />
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-5 ">
+                    <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal8">
+                        <div
+                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white" style="font-size: 200%;">
+                                <i>WEEK 8</i>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="images/Screenshot 2022-07-07 160601.png" alt="..." />
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-5 ">
+                    <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal9">
+                        <div
+                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white" style="font-size: 200%;">
+                                <i>WEEK 9</i>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="assets/img/portfolio/Screenshot 2022-07-14 163810.png" alt="..." />
                     </div>
                 </div>
             </div>
         </div>
-        <div class="toptext">
-            <div class="text">
-                <h1>Hey friends -</h1>
-                <p>I’m Tan Zhen Xun, This is my first time doing my PORTFOLIO.</p>
-                <div class="about">
-                    <a href="#aboutpage">About</a>
-                </div>
-            </div>
-            <div class="personlogo">
-                <img src="images/personalcricle.png" alt="">
-            </div>
-        </div>
+    </section>
 
-        <!--Second Content-->
-        <div class="secondbg">
-            <div class="secondhd" id="aboutpage">
-                <h1>About Me</h1>
-            </div>
-            <div class="secondtext">
-                <div class="secondpic">
-                    <img src="images/study.png" alt="">
+    <!-- Footer-->
+    <footer class="footer text-center">
+        <div class="container">
+            <div class="row">
+                <!-- Footer Location-->
+                <div class="col-lg-4 mb-5 mb-lg-0">
+                    <h4 class="text-uppercase mb-4">Location</h4>
+                    <p class="lead mb-0">
+                        2215 John Daniel Drive
+                        <br />
+                        Clark, MO 65243
+                    </p>
                 </div>
-                <div class="content">
-                    <p>My name is Tan Zhen Xun. As of June 2022, I've been studying in New Era University for three
-                        years, and I'm now pursuing Bachelor Degree in Software Engineering.</p>
-                    <div class="button">
-                        <a href="about.html">See More</a>
-                    </div>
+                <!-- Footer Social Icons-->
+                <div class="col-lg-4 mb-5 mb-lg-0">
+                    <h4 class="text-uppercase mb-4">Around the Web</h4>
+                    <a class="btn btn-outline-light btn-social mx-1" href="#!"><i
+                            class="fab fa-fw fa-facebook-f"></i></a>
+                    <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-twitter"></i></a>
+                    <a class="btn btn-outline-light btn-social mx-1" href="#!"><i
+                            class="fab fa-fw fa-linkedin-in"></i></a>
+                    <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-dribbble"></i></a>
                 </div>
-            </div>
-        </div>
-        <!--Third Content-->
-        <div class="thirdbg">
-            <div class="thirdhd">
-                <h1>My Favourite</h1>
-            </div>
-            <div class="pic">
-                <div class="box">
-                    <a href="favourite.html">
-                        <img src="images/Web_design_Ass1.png" alt="">
-                        <p>Amination</p>
-                    </a>
-                </div>
-                <div class="box">
-                    <a href="favourite.html">
-                        <img src="images/clash1.png" alt="">
-                        <p>Games</p>
-                    </a>
-                </div>
-                <div class="box">
-                    <a href="favourite.html">
-                        <img src="images/sport.png" alt="">
-                        <p>Sports</p>
-                    </a>
+                <!-- Footer About Text-->
+                <div class="col-lg-4">
+                    <h4 class="text-uppercase mb-4">About Freelancer</h4>
+                    <p class="lead mb-0">
+                        Freelance is a free to use, MIT licensed Bootstrap theme created by
+                        <a href="http://startbootstrap.com">Start Bootstrap</a>
+                        .
+                    </p>
                 </div>
             </div>
         </div>
-        <div class="fourthbg">
-            <img src="images/paint.png" alt="">
-            <div class="fourthtext">
-                <h1>My Work</h1>
-                <p>Working with relatives teaching children draw</p>
-                <div class="button">
-                    <a href="work.html">See More</a>
-                </div>
-            </div>
-        </div>
-        <div class="fifthbg">
-            <div class="fifthhd">
-                <h1>My Portfolio</h1>
-            </div>
-            <div class="fifthtext">
-                <div class="text">
-                    <p>Record my first time do HTML and CSS exercise from Week 2 to Week 7</p>
-                    <div class="button">
-                        <a href="#">See More</a>
-                    </div>
-                </div>
-                <div class="pic">
-                    <img src="images/hpage_prjt.jpg" alt="">
-                </div>
-            </div>
-        </div>
-        <div class="sixthbg">
-            <div class="sixthtext">
-                <div class="box1">
-                    <div class="form">
-                        <h2>Get in Touch</h2>
-                        <form name="myForm" action="form_submit.html">
-                            <input type="text" name="email" placeholder="Your email" /><br>
-                            <select name="subject" placeholder="Subject">
-                                <option value="">-- Please Select --</option>
-                                <option value="asking_a_question">Asking a question</option>
-                                <option value="cooperation">Cooperation</option>
-                                <option value="design">Creative Design</option>
-                                <option value="other">Others</option>
-                            </select><br>
-                            <textarea name="bio" rows="4" cols="50" placeholder="Message"></textarea><br>
-                            <input type="submit" name="sbutton" value="SUBMIT NOW">
-                        </form>
-                    </div>
-                </div>
-                <div class="text">
-                    <h1>Contact Me</h1>
-                    <p>Any question? Please contact me.</p>
-                    <div class="box2">
-                        <div class="round">
-                            <i class="fa-solid fa-phone"></i>
-                            <p>+60 16-3789245</p>
-                        </div>
-                        <div class="round">
-                            <i class="fa-solid fa-envelope"></i>
-                            <p><a href="mailto:tanzhenxun1118@e.newera.edu.my">tanzhenxun1118@e.newera.edu.my</a></p>
-                        </div>
-                        <div class="round">
-                            <i class="fa-solid fa-compass"></i>
-                            <p>B8/J/2-12, Venice Hill Tower 8, Taman Puteri, 43200 Cheras, Selangor</p>
+    </footer>
+    <!-- Copyright Section-->
+    <div class="copyright py-4 text-center text-white">
+        <div class="container"><small>Copyright &copy; Your Website 2022</small></div>
+    </div>
+    <!-- Portfolio Modals-->
+    <!-- Portfolio Modal 1-->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal"
+                        aria-label="Close"></button></div>
+                <div class="modal-body text-center pb-5">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Log Cabin</h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- Portfolio Modal - Image-->
+
+                                <img class="imgpjt" src="assets/img/portfolio/week1F1.png" alt="..." />
+                                <img class="imgpjt" src="assets/img/portfolio/week1F2.png" alt="..." />
+
+                                <!-- Portfolio Modal - Text-->
+                                <p class="mb-4"> Here is my favorite Website:</p>
+                                <ol type="1." class="mb-4 list">
+                                    <li><a href="https://www.verrevertglass.com">Verre Vert</a></li>
+                                    <li><a href="https://www.sleepiest.com/">Sleepiest (backup) </a></li>
+                                </ol>
+
+                                <button class="btn btn-primary" data-bs-dismiss="modal">
+                                    <i class="fas fa-xmark fa-fw"></i>
+                                    Close Window
+                                </button>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </div>
-        </div>
-        <!--Footer-->
-        <div class="footerbg">
-            <div class="footnvg">
-                <p class="ftlogo">TZXUN</p>
-                <div class="left">
-                    <div class="nvg">
-                        <a href="#">Home</a>
-                        <a href="about.html">About</a>
-                        <a href="favourite.html">My Favourite</a>
-                        <a href="work.html">My Work</a>
-                        <a href="portfolio.html">My Portfolio</a>
-                        <a href="#">Contact</a>
-                    </div>
-                </div>
-            </div>
-            <div class="footmedia">
-                <div class="media">
-                    <div class="ftmedia">
-                        <a href="https://github.com/tanzhenxun"><i class="fa-brands fa-github"></i></a>
-                    </div>
-                    <div class="ftmedia">
-                        <a href="https://www.facebook.com/xun.tan.31/about"><i class="fa-brands fa-facebook"></i></a>
-                    </div>
-                    <div class="ftmedia">
-                        <a href="https://www.instagram.com/tan315_x18/?hl=en"><i class="fa-brands fa-instagram"></i></a>
-                    </div>
-                    <div class="ftmedia">
-                        <a href="mailto:tanzhenxun1118@e.newera.edu.my"><i class="fa-solid fa-envelope"></i></a>
-                    </div>
-                </div>
-                <div class="copyrgt">
-                    <p>© 2022 TZXun.</p>
                 </div>
             </div>
         </div>
     </div>
+    <!-- Portfolio Modal 2-->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" aria-labelledby="portfolioModal2"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal"
+                        aria-label="Close"></button></div>
+                <div class="modal-body text-center pb-5">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Tasty Cake</h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- Portfolio Modal - Image-->
+                                <img class="img-fluid rounded mb-5" src="assets/img/portfolio/week2.png" alt="..." />
+                                <!-- Portfolio Modal - Text-->
+                                <p class="mb-4"> Learn simple elements first and create my Github acconut
+                                </p>
+                                <ol type="1." class="mb-4 list">
+                                    <li><a href="week2/index.html">Week 2</a></li>
+                                    <li><a href="https://github.com/tanzhenxun">My Github Acconut Profile</a></li>
+                                </ol>
+                                <button class="btn btn-primary" data-bs-dismiss="modal">
+                                    <i class="fas fa-xmark fa-fw"></i>
+                                    Close Window
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio Modal 3-->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" aria-labelledby="portfolioModal3"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal"
+                        aria-label="Close"></button></div>
+                <div class="modal-body text-center pb-5">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Circus Tent</h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- Portfolio Modal - Image-->
 
+                                <img class="imgpjt" src="assets/img/portfolio/week3.png" alt="..." />
 
-    <script>
-        function openNav() {
-            document.getElementById("myNav").style.height = "100%";
-        }
+                                <!-- Portfolio Modal - Text-->
+                                <p class="mb-4"> Do some simple html elements by exercise 1 and exercise 2. And 5
+                                    homework need follow demo screenshots.
+                                </p>
+                                <ol type="1" class="mb-4 list">
+                                    <li><a href="week3/apple.html">Exercise 1</a></li>
+                                    <li><a href="week3/exersice2/index.html">Exercise 2</a></li>
+                                    <li><a href="week3/homework1.html">Homework 1</a></li>
+                                    <li><a href="week3/homework2.html">Homework 2</a></li>
+                                    <li><a href="week3/homework3.html">Homework 3</a></li>
+                                    <li><a href="week3/homework4.html">Homework 4</a></li>
+                                    <li><a href="week3/homework5.html">Homework 5</a></li>
+                                </ol>
+                                <button class="btn btn-primary" data-bs-dismiss="modal">
+                                    <i class="fas fa-xmark fa-fw"></i>
+                                    Close Window
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio Modal 4-->
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" aria-labelledby="portfolioModal4"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal"
+                        aria-label="Close"></button></div>
+                <div class="modal-body text-center pb-5">
+                    <div class="container>
+                        <div class=" row justify-content-center">
+                        <div class="col-lg-8">
+                            <!-- Portfolio Modal - Title-->
+                            <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Controller</h2>
+                            <!-- Icon Divider-->
+                            <div class="divider-custom">
+                                <div class="divider-custom-line"></div>
+                                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                <div class="divider-custom-line"></div>
+                            </div>
+                            <!-- Portfolio Modal - Image-->
+                            <img class="img-fluid rounded mb-5" src="assets/img/portfolio/week4.png" alt="..." />
+                            <!-- Portfolio Modal - Text-->
+                            <p class="mb-4">
+                                Revised Home Page
+                            </p>
+                            <button class="btn btn-primary" data-bs-dismiss="modal">
+                                <i class="fas fa-xmark fa-fw"></i>
+                                Close Window
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio Modal 5-->
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" aria-labelledby="portfolioModal5"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal"
+                        aria-label="Close"></button></div>
+                <div class="modal-body text-center pb-5">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Locked Safe</h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- Portfolio Modal - Image-->
+                                <img class="img-fluid rounded mb-5" src="assets/img/portfolio/week5.png" alt="..." />
+                                <!-- Portfolio Modal - Text-->
+                                <p class="mb-4">
+                                    Responsive Homework
+                                </p>
+                                <ol type="1" class="mb-4 list">
+                                    <li><a href="week5/index.html">Exercise 1</a></li>
+                                    <li><a href="week5/homework1/index.html">Homework 1 Responsive Layout A</a></li>
+                                    <li><a href="week5/homework2/index.html">Homework 2 Responsive Layout B</a></li>
+                                    <li><a href="week5/homework3/index.html">Homework 3 Responsive Layout C</a></li>
+                                </ol>
+                                <button class="btn btn-primary" data-bs-dismiss="modal">
+                                    <i class="fas fa-xmark fa-fw"></i>
+                                    Close Window
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" aria-labelledby="portfolioModal6"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal"
+                        aria-label="Close"></button></div>
+                <div class="modal-body text-center pb-5">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Circus Tent</h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- Portfolio Modal - Image-->
 
-        function closeNav() {
-            document.getElementById("myNav").style.height = "0%";
-        }
-    </script>
+                                <img class="imgpjt" src="assets/img/portfolio/week6.png" alt="..." />
+
+                                <!-- Portfolio Modal - Text-->
+                                <p class="mb-4"> </p>
+                                <ol type="1" class="mb-4 list">
+                                    <li><a href="week6/exersice1/index.html">Exercise 1</a></li>
+                                    <li><a href="week6/layout1/index.html">Layout 1</a></li>
+                                    <li><a href="week6/layout2/index.html">Layout 2</a></li>
+                                    <li><a href="week6/layout3/index.html">Layout 3</a></li>
+                                    <li><a href="week6/layout4/index.html">Layout 4</a></li>
+                                    <li><a href="week6/homework1/index.html">Homework 1</a></li>
+                                </ol>
+                                <button class="btn btn-primary" data-bs-dismiss="modal">
+                                    <i class="fas fa-xmark fa-fw"></i>
+                                    Close Window
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" aria-labelledby="portfolioModal7"
+            aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal"
+                            aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Circus Tent
+                                    </h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+
+                                    <img class="imgpjt" src="images/Screenshot 2022-06-23 165916.png" alt="..." />
+
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4"> </p>
+                                    <ol type="1" class="mb-4 list">
+                                        <li><a href="week7/index.html">First Page</a></li>
+                                        <li><a href="week7/exersice1/index.html">Exersice1</a></li>
+                                    </ol>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" aria-labelledby="portfolioModal8"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal"
+                        aria-label="Close"></button></div>
+                <div class="modal-body text-center pb-5">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Circus Tent
+                                </h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- Portfolio Modal - Image-->
+
+                                <img class="imgpjt" src="assets/img/portfolio/Screenshot 2022-07-14 163810.png" alt="..." />
+
+                                <!-- Portfolio Modal - Text-->
+                                <p class="mb-4"> </p>
+                                <ol type="1" class="mb-4 list">
+                                    <li><a href="week9/index.html">Exersice1</a></li>
+                                    <li><a href="week9/exersice2.html">Exersice2</a></li>
+                                </ol>
+                                <button class="btn btn-primary" data-bs-dismiss="modal">
+                                    <i class="fas fa-xmark fa-fw"></i>
+                                    Close Window
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <!-- * *                               SB Forms JS                               * *-->
+        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
 </body>
 
 </html>

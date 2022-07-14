@@ -1,5 +1,6 @@
 body{
     margin: auto;
+    font-family: 'Lato', sans-serif;
 }
 
 .container {
@@ -24,7 +25,7 @@ body{
 
 .logo {
     position: sticky;
-    margin-left: 6vw;
+    margin: 2vw 0px 2vw 6vw;
     font-weight: 800;
     font-size: 30px;
 }
@@ -108,6 +109,11 @@ body{
 
 }
 
+@media screen and (max-width:500){
+    .logo {
+        margin: 4vw 0px 4vw 6vw;
+    }
+}
 
 .dropdown {
     height: 0%;
@@ -408,6 +414,9 @@ body{
     font-size: 2vw;
     margin: 0px;
 }
+.thirdbg .pic .box a{
+    text-decoration: none;
+}
 
 @media screen and (max-width: 800px) {
     .thirdhd {
@@ -469,8 +478,10 @@ body{
     padding: 0vw 3vw;
 }
 
+
 .fourthtext h1 {
     padding-bottom: 20px;
+    font-size: 3vw;
 }
 
 .fourthtext p {
@@ -513,7 +524,6 @@ body{
 
     .fourthtext h1 {
         padding-bottom: 10px;
-        font-size: 6vw;
     }
 
     .fourthtext p {
