@@ -24,11 +24,16 @@ body {
     font-size: 1.5vw;
 }
 
+.topnvg a {
+    text-decoration: none;
+}
+
 .logo {
     position: sticky;
-    margin-left: 6vw;
+    margin: 2vw 0px 2vw 6vw;
     font-weight: 800;
     font-size: 30px;
+    color: white;
 }
 
 .leftbar {
@@ -213,33 +218,52 @@ body {
     padding: 20px 50px;
     text-align: center;
 }
+
 @media screen and (max-width:900px) {
     .hd h1 {
         padding: 3vw 7vh;
     }
 }
 
-.gallery-box{
+.gallery-box {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
 }
 
-.gallery{
+.gallery {
     width: auto;
     position: relative;
     margin: 10px;
 }
 
-.gallery img{
+.gallery img {
     width: 380px;
     height: 420px;
     object-fit: cover;
     border-radius: 20px;
 }
 
-.gallery .box{
+@media screen and (max-width: 500px) {
+    .gallery img {
+        width: 280px;
+        height: 350px;
+        object-fit: cover;
+        border-radius: 20px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .gallery img {
+        width: 250px;
+        height: 300px;
+        object-fit: cover;
+        border-radius: 20px;
+    }
+}
+
+.gallery .box {
     position: absolute;
     color: white;
     width: 70%;
@@ -247,9 +271,9 @@ body {
     left: 5%;
 }
 
-.gallery .box .box-btn{
+.gallery .box .box-btn {
     background-color: white;
-    color:#5C2000;
+    color: #5C2000;
     display: flex;
     margin: 5px 20px;
     justify-content: center;
@@ -261,16 +285,249 @@ body {
     font-weight: 700;
 }
 
-.gallery .box .box-btn p{
+.gallery .box .box-btn p {
     margin: 0%;
 }
 
-.gallery .box .box-text{
+.gallery .box .box-text {
     font-size: 30px;
     font-weight: 900;
     margin-left: 20px;
 }
 
-.gallery .box .box-text p{
+.gallery .box .box-text p {
     margin: 0%;
+}
+
+@media screen and (max-width: 500px) {
+
+
+    .gallery .box .box-btn {
+        margin: 5px 10px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+        width: 120px;
+        height: 40px;
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    .gallery .box .box-btn p {
+        margin: 0%;
+    }
+
+    .gallery .box .box-text {
+        font-size: 25px;
+        font-weight: 900;
+        margin-left: 10px;
+    }
+
+    .gallery .box .box-text p {
+        margin: 0%;
+    }
+
+}
+
+
+.gallery:hover .aft_text {
+    transform: scale(1);
+}
+
+.aft_text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(218, 184, 139, 0.95);
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    transform: scale(0);
+    -webkit-transition: .3s ease;
+    transition: .3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.aft_text hd {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.aft_text a:hover {
+    color: #f1f1f1;
+}
+
+.aft_text a {
+    display: block;
+    font-size: 24px;
+    color: #5C2000;
+    text-decoration: none;
+    line-height: 40px;
+}
+
+.aft_text .box_aft_text {
+    text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+
+    .aft_text hd {
+        font-size: 15px;
+    }
+
+
+    .aft_text a {
+        font-size: 20px;
+        line-height: 25px;
+    }
+}
+
+
+
+.footerbg {
+    background-color: #B7CADB;
+}
+
+.footnvg {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5vw;
+}
+
+
+.left .nvg {
+    padding: 0px 15px;
+}
+
+.left .nvg a {
+    margin-left: 15px;
+    margin-right: 15px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.left .nvg a:hover {
+    color: rgb(234, 234, 234);
+    text-decoration: none;
+}
+
+.footnvg .ftlogo {
+    color: white;
+    font-weight: 800;
+    margin-left: 2vw;
+    font-size: 2vw;
+}
+
+@media screen and (max-width: 500px) {
+
+    .footerbg {
+        padding: 10px 20px;
+    }
+
+
+    .footnvg {
+        display: block;
+        padding: 0px;
+    }
+
+
+    .left .nvg {
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .left .nvg a {
+        font-size: 20px;
+        line-height: 30px;
+        margin: 0px;
+    }
+
+
+
+    .footnvg .ftlogo {
+        margin: 2vw 0vw;
+        font-size: 30px;
+    }
+}
+
+.footmedia {
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.media {
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.media .ftmedia {
+    margin-left: 2vw;
+    font-size: 30px;
+}
+
+.media .ftmedia i {
+    color: white;
+    font-size: 3vw;
+
+}
+
+.copyrgt {
+    width: 50%;
+    margin-right: 25px;
+    text-align: right;
+    margin-bottom: -5px;
+    color: white;
+}
+
+.copyrgt p {
+    font-size: 1.5vw;
+}
+
+@media screen and (max-width:500px) {
+
+    .footmedia {
+        display: block;
+    }
+
+    .media {
+        padding-top: 20px;
+        width: 60%;
+        justify-content: space-between;
+    }
+
+    .media .ftmedia {
+        margin-left: 0vw;
+        font-size: 30px;
+    }
+
+    .media .ftmedia i {
+        font-size: 10vw;
+
+    }
+
+    .copyrgt {
+        width: 100%;
+        margin-right: 25px;
+        text-align: left;
+        margin-bottom: -5px;
+        color: white;
+    }
+
+    .copyrgt p {
+        font-size: 6vw;
+    }
+
 }
