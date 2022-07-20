@@ -470,6 +470,25 @@ input[type=submit] {
     }
 }
 
+@media screen and (max-width: 1079px) {
+    .box-detail1{
+        padding: 20px 10px;
+    }
+
+}
+
+@media screen and (max-width: 985px) {
+    .box-detail3{
+        padding: 10px;
+    }
+
+    .box-detail1{
+        padding: 30px 10px;
+    }
+
+
+}
+
 @media screen and (max-width: 650px) {
     .infor_contact a{
         width: 50%;
