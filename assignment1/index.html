@@ -131,16 +131,16 @@
                 <div class="box1">
                     <div class="form">
                         <h2>Get in Touch</h2>
-                        <form name="myForm" action="form_submit.html">
-                            <input type="text" name="email" placeholder="Your email" /><br>
-                            <select name="subject" placeholder="Subject">
+                        <form name="myForm" action="form_submit.html" required>
+                            <input type="text" name="email" placeholder="Your email" required/><br>
+                            <select name="subject" placeholder="Subject" required>
                                 <option value="">-- Please Select --</option>
                                 <option value="asking_a_question">Asking a question</option>
                                 <option value="cooperation">Cooperation</option>
                                 <option value="design">Creative Design</option>
                                 <option value="other">Others</option>
                             </select><br>
-                            <textarea name="bio" rows="4" cols="50" placeholder="Message"></textarea><br>
+                            <textarea name="bio" rows="4" cols="50" placeholder="Message" required></textarea><br>
                             <input type="submit" name="sbutton" value="SUBMIT NOW">
                         </form>
                     </div>
