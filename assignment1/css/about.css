@@ -372,8 +372,8 @@ hr {
 }
 
 .secondtext .images img{
-    border-radius: 50px;
-    width: 25vw;
+    border-radius: 20px;
+    width: 30vw;
 }
 
 hr.line2{
@@ -386,7 +386,7 @@ hr.line2{
     }
     
     .secondtext .images img{
-        border-radius: 40px;
+        border-radius: 20px;
         width: 30vw;
     }
     
@@ -395,6 +395,11 @@ hr.line2{
 @media screen and (max-width:500px) {
     hr.line2{
         margin-top: 35px;
+        display: block;
+    }
+
+    hr.line3{
+        margin-top: 20px;
         display: block;
     }
     .secondtext{
