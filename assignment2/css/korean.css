@@ -253,11 +253,12 @@ strong{
 }
 
 .second-box1 .second-box2 img{
-    width: 25vw;
+    width: 30vw;
     height: 15vw;
+    object-fit: cover;
 }
 .second-box1 .second-box3 img{
-    width: 40vw;
+    width: 35vw;
     height: 50vh;
     object-fit: cover;
 }
@@ -372,8 +373,6 @@ strong{
     .fs-4{
         font-size: calc(1.2rem + .2vw)!important;
     }
-
-
 }
 
 @media screen and (max-width: 800px) {
