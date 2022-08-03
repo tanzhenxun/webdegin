@@ -1,0 +1,383 @@
+body{
+    font-family: 'Caladea' , sans-serif;
+    margin: 0;
+    font-weight: 400;
+}
+
+.firstbg {
+    background-image: url('../images/thailand/pic1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.firheader {
+    font-style: italic;
+    font-weight: 700;
+    font-size: calc(3.5rem + .5vw)!important;
+    margin-top: 25vh;
+    margin-bottom: 20vh;
+}
+
+.header-box1 h1{
+    background: rgba(205, 205, 205, 0.8);
+}
+
+@media screen and (max-width: 800px) {
+    .firheader {
+        margin-top: 20vh;
+        margin-bottom: 15vh;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .firheader {
+        margin-top: 15vh;
+        margin-bottom: 10vh;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .firheader {
+        margin-top: 15vh;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .firheader {
+        margin-top: 15vh;
+    }
+}
+
+.pic-shape{
+    max-width: 90%;
+    margin: auto;
+}
+
+.pic-shape img{
+    width: 80vw;
+}
+
+.text-size{
+    max-width: 85%;
+    margin: auto;
+}
+
+@media screen and (max-width: 985px) {
+    .text-size{
+        max-width: 90%;
+    }
+}
+
+@media screen and (max-width: 575px){
+    .pic-shape{
+        max-width: 100%;
+        margin: auto;
+    }
+    
+    .pic-shape img{
+        width: 90vw;
+    }
+
+    .text-size{
+        max-width: 100%;
+    }
+}
+
+.thrid-bg{
+    background-image: url('../images/thailand/scnd-bg-pic.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-origin: 0.3;
+}
+
+.thrid-content-box{
+    max-width: 90%;
+    margin: auto;
+}
+
+.thrid-content-box-pic img{
+    width: 35vw;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 1100px) {
+    .thrid-content-box-pic img{
+        width: 40vw;
+        height: 50vh;
+    }
+}
+
+@media screen and (max-width: 985px) {
+    .thrid-content-box{
+        max-width: 95%;
+    }
+
+    .thrid-content-box-pic img{
+        width: 40vw;
+        height: 50vh;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .thrid-content-box{
+        max-width: 100%;
+    }
+
+    .thrid-content-box-pic img{
+        width: 60vw;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .thrid-content-box-pic img{
+        width: 80vw;
+    }
+}
+
+.fourth-content-box{
+    max-width: 70%;
+    margin: auto;
+}
+
+.fourth-content-bg1{
+    height: 250px;
+}
+
+.fourth-content-pic1 img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.fourth-bg{
+    background: #FFE4CB;
+}
+.thailand-fourth-content-color1{
+    background: #C49647;
+}
+
+.thailand-fourth-content-color2{
+    background: #ECD6AC;
+}
+
+.fourth-content-bg1 i{
+    font-size: 70px;
+}
+
+.btn-bg-color1{
+    background: #ECD6AC;
+    border: #ECD6AC 3px solid;
+    transition: 0.3s;
+}
+
+.btn-bg-color1:hover{
+    background: #C49647;
+    border: #ECD6AC 3px solid;
+}
+
+.btn-bg-color2{
+    background: #C49647;
+    border: #C49647 3px solid;
+    transition: 0.3s;
+}
+
+.btn-bg-color2:hover{
+    background: #ECD6AC;
+    border: #C49647 3px solid;
+}
+
+.fourth-content-bth-text{
+    font-weight: 700;
+}
+
+
+
+@media screen and (max-width:1360px) {
+    .fourth-content-box{
+        max-width: 80%;
+    }
+}
+
+@media screen and (max-width:1150px) {
+    .fourth-content-bg1{
+        height: 270px;
+    }
+    .fourth-content-pic1 img{
+       height: 270px;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .fourth-content-box{
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width:790px) {
+    .fourth-content-bg1{
+        height: 300px;
+    }
+    .fourth-content-pic1 img{
+       height: 300px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .fourth-content-bg1{
+        height: auto;
+    }
+
+    .fourth-content-pic1{
+        max-width: 100%;
+    }
+
+    .fourth-content-pic1 img{
+        height: auto;
+     }
+}
+
+.thailand-festival-modal-bg1{
+    background-image: url('../images/thailand/festival-modal-pic1.png');
+}
+
+.thailand-festival-modal-bg2{
+    background-image: url('../images/thailand/festival-modal-pic2.png');
+}
+
+.thailand-festival-modal-bg3{
+    background-image: url('../images/thailand/festival-modal-pic3.png');
+}
+
+.thailand-festival-modal-bg4{
+    background-image: url('../images/thailand/festival-modal-pic4.png');
+}
+
+.thailand-festival-modal-size{
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+
+.thailand-modal-close{
+    margin: 5px 5px 200px 5px;
+}
+
+.thailand-modal-close i{
+    color: white;
+    font-size: 40px;
+}
+
+.thailand-modal-close i:hover{
+    color: rgb(168, 168, 168);
+    transform: 0.3s;
+}
+
+@media screen and (max-width:575px){
+    .thailand-modal-close{
+        margin: 5px 5px 15vh 5px;
+    }
+}
+
+.fifth-content-box{
+    max-width: 70%;
+    margin: auto;
+}
+
+.fifth-content-bg1{
+    height: 200px;
+}
+
+.fifth-content-pic1 img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.fifth-content-bg2{
+    height: 200px;
+    max-width: 100%;
+}
+
+.fifth-content-pic2 img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 1200px){
+    .fifth-content-pic2 img{
+        object-fit: none;
+    }
+}
+
+@media screen and (max-width:1050px) {
+    .fifth-content-box{
+        max-width: 80%;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .fifth-content-box{
+        max-width: 90%;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .fifth-content-box{
+        max-width: 100%;
+        margin: auto;
+    }
+
+    .fifth-content-bg2{
+        height: auto;
+    }
+
+    .fifth-content-pic2 img{
+        width: 90vw;
+        height: 30vh;
+        object-fit: cover;
+    }
+}
+
+@media screen and (max-width:575px) {
+    
+    .fifth-content-bg1{
+        height: auto;
+    }
+    
+    .fifth-content-pic1 img{
+        height: auto;
+    }
+
+    .fifth-content-pic2 img{
+        width: 90vw;
+        height: auto;
+        object-fit: cover;
+    }
+    
+}
+
+.food-pic-text1{
+    top: 30%;
+    bottom: 30%;
+    left: 2%;
+}
+
+.food-pic-text2{
+    bottom: 3%;
+    right: 4%;
+}
+
+.food-pic-text3{
+    bottom: 3%;
+    left: 3%;
+}
+
+
+@media
+fifth-food-pic

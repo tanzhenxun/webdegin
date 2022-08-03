@@ -1,7 +1,12 @@
 body{
-    font-family: 'Caladea';
+    font-family: 'Caladea', sans-serif;
     margin: 0;
     font-weight: 400;
+}
+
+/*Navi + Footer*/
+.text-dark{
+    color: black;
 }
 
 .fs-4-blue{
@@ -14,6 +19,10 @@ body{
     width: 33%;
 }
 
+.w-special{
+    width: 33%;
+}
+
 /*Navbar css*/
 .icon-helloworld{
     width: auto;
@@ -22,7 +31,7 @@ body{
 
 .icon-helloworld2{
     width: auto;
-    height: 90px;
+    height: 100px;
 }
 
 .navbar{
@@ -31,6 +40,11 @@ body{
 
 .nav-button{
     border-radius: 30px;
+}
+
+.navbar-toggler-special{
+    background-color: black;
+    border: var(--bs-border-width) solid rgb(255 255 255);
 }
 
 .hidden-culture{
@@ -57,6 +71,10 @@ body{
     text-decoration: none;
 }
 
+.footer-bg{
+    background-image: url(../images/home/background3.jpg);
+}
+
 @media screen and (max-width: 992px){
 
     .off-can-button{
@@ -78,6 +96,10 @@ body{
     .w-30{
         width: 50%;
     }
+
+    .w-special{
+        width: 100%;
+    }
     
 }
 
@@ -98,107 +120,83 @@ body{
     transition: 1s;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*Navi + Footer*/
 
 
 strong{
     font-weight: 700;
 }
 
-.firstbg {
+.korean-firstbg {
     background-image: url('../images/korean/picture1.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
-.firheader {
+.korean-firheader {
     font-family: 'Caladea';
     font-style: italic;
     font-weight: 700;
-    font-size: 5vw;
+    font-size: calc(3.5rem + .5vw)!important;
     margin-top: 35vh;
 }
 
 @media screen and (max-width: 800px) {
-    .firheader {
-        font-size: 6vw;
+    .korean-firheader {
         margin-top: 20vh;
     }
 }
 
 @media screen and (max-width: 450px) {
-    .firheader {
-        font-size: 7.5vw;
+    .korean-firheader {
         margin-top: 15vh;
     }
 }
 
 @media screen and (max-width: 320px) {
-    .firheader {
-        font-size: 10vw;
+    .korean-firheader {
         margin-top: 15vh;
     }
 }
 
-.bg-color {
+.korean-bg-color {
     background-color: #FFE8C4;
 }
 
-.bg-box1 {
+.korean-bg-box1 {
     background-color: #ECD6AC;
     max-width: 40%;
     margin: auto;
 }
 
-.box1 img {
+.korean-box1 img {
     height: fit-content;
     width: 8vw;
     margin-right: 10px;
 }
 
-.box2 img{
+.korean-box2 img{
     width: 20vw;
 }
 
 @media screen and (max-width: 1150px) {
-    .box2 img{
+    .korean-box2 img{
         width: 25vw;
     }
 }
 
 
 @media screen and (max-width: 1024px) {
-    .box1 img {
+    .korean-box1 img {
         width: 4vw;
     }
 
-    .box2 img{
+    .korean-box2 img{
         width: 300px;
     }
 
-    .bg-box1 {
+    .korean-bg-box1 {
         max-width: 50%;
     }
     
@@ -206,11 +204,11 @@ strong{
 
 @media screen and (max-width: 790px) {
 
-    .box2 img{
+    .korean-box2 img{
         width: 250px;
     }
 
-    .bg-box1 {
+    .korean-bg-box1 {
         max-width: 70%;
     }
     
@@ -218,46 +216,46 @@ strong{
 
 @media screen and (max-width: 575px) {
 
-    .box1 img {
+    .korean-box1 img {
         width: 7vw;
     }
 
-    .bg-box1 {
+    .korean-bg-box1 {
         max-width: 100%;
     }
     
-    .box2 img{
+    .korean-box2 img{
         width: 60vw;
         margin: -10px 0px;
     }
 
-    .frt-box{
+    .korean-frt-box{
         flex-wrap: wrap;
     }
     
 }
 
-.borderhr{
+.korean-borderhr{
     border-top: 2px solid ;
     border-color: #EDAE4C;
 }
 
 
 
-.borderhr .text1{
+.korean-borderhr .korean-text1{
     max-width: 65%;
     margin:auto;
 }
-.second-box1 .second-box2{
+.korean-second-box1 .korean-second-box2{
     padding-left: 10%;
 }
 
-.second-box1 .second-box2 img{
+.korean-second-box1 .korean-second-box2 img{
     width: 30vw;
     height: 15vw;
     object-fit: cover;
 }
-.second-box1 .second-box3 img{
+.korean-second-box1 .korean-second-box3 img{
     width: 35vw;
     height: 50vh;
     object-fit: cover;
@@ -265,39 +263,39 @@ strong{
 
 
 @media screen and (max-width: 1080px) {
-    .second-box1 .second-box3 img{
+    .korean-second-box1 .korean-second-box3 img{
         height: 60vh;
     }
 }
 
 @media screen and (max-width: 700px) {
 
-    .borderhr .text1{
+    .korean-borderhr .korean-text1{
         max-width: 80%;
         margin:auto;
     }
 
-    .second-box1 .second-box2 img{
+    .korean-second-box1 .korean-second-box2 img{
         width: 30vw;
         height: 15vw;
     }
 
-    .second-box1 .second-box2{
+    .korean-second-box1 .korean-second-box2{
         padding-left: 3%;
     }
 
-    .second-box1 .second-box3 img{
+    .korean-second-box1 .korean-second-box3 img{
         width: 40vw;
         height: 50vh;
     }
 }
 
 @media screen and (max-width:600px) {
-    .borderhr{
+    .korean-borderhr{
         margin-top: 10px;
     }
     
-    .second-box1 .second-box3 img {
+    .korean-second-box1 .korean-second-box3 img {
         width: 40vw;
         height: 40vh;
     }
@@ -306,27 +304,27 @@ strong{
 
 
 @media screen and (max-width:575px) {
-    .second-box1{
+    .korean-second-box1{
         flex-wrap: wrap;
         text-align: center;
     }
 
 
-    .borderhr .text1{
+    .korean-borderhr .korean-text1{
         max-width: 95%;
         margin:auto;
     }
 
-    .second-box1 .second-box2 img{
+    .korean-second-box1 .korean-second-box2 img{
         width: 60vw;
         height: auto;
     }
 
-    .second-box1 .second-box2{
+    .korean-second-box1 .korean-second-box2{
         padding-left: 0px;
     }
 
-    .second-box1 .second-box3 img{
+    .korean-second-box1 .korean-second-box3 img{
         margin: 10px 0px;
         width: 80vw;
         height: auto;
@@ -335,53 +333,53 @@ strong{
 }
 
 /*Third*/
-.thrid-box1{
+.korean-thrid-box1{
     margin: auto;
     max-width: 80%;
 }
-.thrid-box1 .third-box2 img{
+.korean-thrid-box1 .korean-third-box2 img{
     width: 30vw;
     height: 55vh;
     object-fit: cover;
 }
 
-.sub-header div{
+.korean-sub-header div{
     width: fit-content;
     background-color: #FBCC95;
     font-weight: bold;
 }
 
-.thrid-box4 div img {
+.korean-thrid-box4 div img {
     text-align: center;
     width: 35vw;
     height: 45vh;
     object-fit: cover;
 }
 
-.thrid-box1 .box-text{
+.korean-thrid-box1 .korean-box-text{
     margin: auto;
     max-width: 80%;
 }
 
 @media screen and (max-width: 1050px){
-    .thrid-box1{
+    .korean-thrid-box1{
         max-width: 90%;
     }
 }
 
-@media screen and (max-width: 915px) {
+/*@media screen and (max-width: 915px) {
     .fs-4{
         font-size: calc(1.2rem + .2vw)!important;
     }
-}
+}*/
 
 @media screen and (max-width: 800px) {
-    .thrid-box4 div img {
+    .korean-thrid-box4 div img {
         width: 35vw;
         height: 40vh;
     }
     
-    .thrid-box1 .box-text{
+    .korean-thrid-box1 .korean-box-text{
         margin: auto;
         max-width: 100%;
     }
@@ -389,11 +387,11 @@ strong{
 }
 
 @media screen and (max-width: 700px){
-    .thrid-box1{
+    .korean-thrid-box1{
         max-width: 100%;
     }
 
-    .thrid-box1 .third-box2 img{
+    .korean-thrid-box1 .korean-third-box2 img{
         width: 40vw;
         height: 55vh;
         object-fit: cover;
@@ -402,40 +400,40 @@ strong{
 
 @media screen and (max-width: 600px){
 
-    .third-box3{
+    .korean-third-box3{
         margin-left: 10px;
     }
 
-    .thrid-box1 .third-box2 img{
+    .korean-thrid-box1 .korean-third-box2 img{
         width: 40vw;
         height: 30vh;
     }
 
-    .fs-4{
+    /*.fs-4{
         font-size: calc(1rem + .1vw)!important;
     }
 
     .fs-5{
         font-size: 0.925rem !important;
-    }
+    }*/
 }
 
 @media screen and (max-width: 575px){
 
-    .thrid-box1 .third-box2 img{
+    .korean-thrid-box1 .korean-third-box2 img{
         width: 80vw;
     height: auto;
     }
 
-    .fs-4{
+    /*.fs-4{
         font-size: calc(1rem + .1vw)!important;
     }
 
     .fs-5{
         font-size: 1.025rem !important;
-    }
+    }*/
 
-    .thrid-box4 div img {
+    .korean-thrid-box4 div img {
         width: 80vw;
         height: auto;
     }
@@ -443,21 +441,21 @@ strong{
 }
 
 /* fourth content*/
-.second-box1 .fourth-box2{
+.korean-second-box1 .korean-fourth-box2{
     text-align: end;
 }
 
-.second-box1 .fourth-box3 div{
+.korean-second-box1 .korean-fourth-box3 div{
     max-width: 80%;
 }
 
-.second-box1 .fourth-box2 img{
+.korean-second-box1 .korean-fourth-box2 img{
     width: 25vw;
     height: 15vw;
     object-fit: cover;
 }
 
-.fourth-bg-food {
+.korean-fourth-bg-food {
     max-width: 80%;
     margin: auto;
     background-image: url('../images/korean/food2.png');
@@ -466,142 +464,142 @@ strong{
     background-position: center;
 }
 
-.fourth-box1-text{
+.korean-fourth-box1-text{
     padding: 30px;
     width: 40%;
 }
 
-.fourth-box1-text p{
+.korean-fourth-box1-text p{
     padding: 30px;
     background: rgba(0, 0, 0, 0.5);
     background-position:left;
 }
 
-.fourth-box4{
+.korean-fourth-box4{
     width: 30vw;
     height: auto;
 }
 
-.fourth-box4 img{
+.korean-fourth-box4 img{
     width: 30vw;
     height: 20vw;
     object-fit: cover;
 }
 
-.picture-bg-grey{
+.korean-picture-bg-grey{
     background-color: #D9D9D9;
 }
 
-.fourth-box6{
+.korean-fourth-box6{
     width: 35vw;
     height: auto;
 }
 
-.fourth-box6 img{
+.korean-fourth-box6 img{
     width: 35vw;
     height: 20vw;
     object-fit: cover;
 }
 
 @media screen and (max-width: 1200px) {
-    .fourth-bg-food {
+    .korean-fourth-bg-food {
         max-width: 90%;
         margin: auto;
     }
 }
 
 @media screen and (max-width: 1090px) {
-    .fourth-bg-food {
+    .korean-fourth-bg-food {
         max-width: 100%;
         margin: auto;
     }
 
-    .fourth-box1-text{
+    .korean-fourth-box1-text{
         padding: 30px;
         width: 50%;
     }
 }
 
 @media screen and (max-width: 870px) {
-    .second-box1 .fourth-box2 img{
+    .korean-second-box1 .korean-fourth-box2 img{
         width: 35vw;
         height: auto;
     }
 
-    .fourth-box1-text{
+    .korean-fourth-box1-text{
         padding: 20px;
     }
 }
 
 @media screen and (max-width: 750px) {
-    .second-box1 .fourth-box3 div{
+    .korean-second-box1 .korean-fourth-box3 div{
         max-width: 100%;
     }
 
-    .fourth-box6{
+    .korean-fourth-box6{
         width: 35vw;
     }
     
-    .fourth-box6 img{
+    .korean-fourth-box6 img{
         width: 35vw;
     }
     
-    .fourth-box4{
+    .korean-fourth-box4{
         width: 35vw;
     }
     
-    .fourth-box4 img{
+    .korean-fourth-box4 img{
         width: 35vw;
     }
 }
 
 @media screen and (max-width: 700px) {
-    .second-box1 .fourth-box2 img{
+    .korean-second-box1 .korean-fourth-box2 img{
         width: 40vw;
         height: 25vw;
     }
 
-    .fourth-box1-text{
+    .korean-fourth-box1-text{
         padding: 0px;
     }
 }
 
 @media screen and (max-width:600px) {
-    .second-box1 .fourth-box2 img{
+    .korean-second-box1 .korean-fourth-box2 img{
         width: 40vw;
         height: 25vw;
     }
 }
 
 @media screen and (max-width:575px) {
-    .second-box1 .fourth-box2{
+    .korean-second-box1 .korean-fourth-box2{
         text-align: center;
     }
-    .second-box1 .fourth-box2 img{
+    .korean-second-box1 .korean-fourth-box2 img{
         width: 60vw;
         height: auto;
     } 
 
-    .fourth-box1-text{
+    .korean-fourth-box1-text{
         width: 100%;
     }
 
-    .fourth-box4{
+    .korean-fourth-box4{
         width: 70vw;
         height: auto;
     }
     
-    .fourth-box4 img{
+    .korean-fourth-box4 img{
         width: 70vw;
         height: 30vh;
     }
     
-    .fourth-box6{
+    .korean-fourth-box6{
         width: 70vw;
         height: auto;
     }
     
-    .fourth-box6 img{
+    .korean-fourth-box6 img{
         width: 70vw;
         height: 30vh;
     }
