@@ -199,6 +199,19 @@ body{
     object-fit: cover;
 }
 
+.fourth-content-box-pic3{
+    width: auto;
+}
+.fourth-content-box-pic3 img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.fourth-content-box-pic4 img{
+
+}
+
 @media screen and (max-width: 1100px) {
 
     .fourth-content-box-pic2 img{
@@ -237,3 +250,4 @@ body{
         height: auto;
     }
 }
+
