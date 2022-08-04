@@ -1,0 +1,239 @@
+body{
+    font-family: 'Caladea' , sans-serif;
+    margin: 0;
+    font-weight: 400;
+}
+
+
+.firstbg {
+    background-image: url('../images/india/firstbgpic1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.firheader {
+    font-style: italic;
+    font-weight: 700;
+    font-size: calc(3.5rem + .5vw)!important;
+}
+
+.header-box1{
+    padding-top: 80vh;
+    padding-bottom: 15px;
+}
+
+.header-box1 h1{
+    background: rgba(0, 0, 0, 0.5);
+}
+
+
+@media screen and (max-width: 800px) {
+    .header-box1{
+        padding-top: 60vh;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .header-box1{
+        padding-top: 50vh;
+        padding-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .header-box1{
+        padding-top: 45vh;
+        padding-bottom: 20px;
+    }
+}
+
+.indfir-bg{
+    background-image: url('../images/india/fir-bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pic-shape{
+    max-width: 90%;
+    margin: auto;
+}
+
+.pic-shape img{
+    width: auto;
+}
+
+.text-size{
+    max-width: 85%;
+    margin: auto;
+}
+
+@media screen and (max-width: 985px) {
+    .text-size{
+        max-width: 90%;
+    }
+
+    .pic-shape img{
+        width: 60vw;
+    }
+}
+
+@media screen and (max-width: 575px){
+    .pic-shape{
+        max-width: 100%;
+        margin: auto;
+    }
+    
+    .pic-shape img{
+        width: 90vw;
+    }
+
+    .text-size{
+        max-width: 100%;
+    }
+}
+
+.bg-content{
+    background-image: url('../images/india/bg-content.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.language-bg{
+    background-image: url('../images/india/lang-bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.subheader {
+    font-weight: 800;
+    font-size: calc(3.5rem + .5vw)!important;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 5vh 0px;
+}
+
+
+
+.thrid-content-box{
+    max-width: 80%;
+    margin: auto;
+}
+
+.thrid-content-box-pic img{
+    width: 30vw;
+    height: 25vh;
+    object-fit: cover;
+}
+
+.thrid-content-box-pic2 img{
+    width: 30vw;
+    height: 30vh;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 1100px) {
+    .thrid-content-box-pic img{
+        width: 40vw;
+        height: 30vh;
+    }
+
+    .thrid-content-box-pic2 img{
+        width: 35vw;
+        height: 30vh;
+        object-fit: cover;
+    }
+}
+
+@media screen and (max-width: 985px) {
+    .thrid-content-box{
+        max-width: 90%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .thrid-content-box{
+        max-width: 100%;
+    }
+
+    .thrid-content-box-pic2 img{
+        width: 40vw;
+        height: 35vh;
+    }
+
+}
+
+@media screen and (max-width: 575px) {
+    .thrid-content-box-pic img{
+        width: 80vw;
+    }
+
+    .thrid-content-box-pic2 img{
+        width: 80vw;
+        height: auto;
+    }
+}
+
+.festival-bg{
+    background-image: url('../images/india/festival-bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.fourth-content-box-pic1{
+    width: 20vw;
+}
+.fourth-content-box-pic1 img{
+    width: 20vw;
+    height: 40vh;
+    object-fit: cover;
+}
+
+.fourth-content-box-pic2 img{
+    width: 30vw;
+    height: 30vh;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 1100px) {
+
+    .fourth-content-box-pic2 img{
+        width: 35vw;
+        height: 30vh;
+        object-fit: cover;
+    }
+}
+
+@media screen and (max-width: 985px) {
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .fourth-content-box-pic2 img{
+        width: 40vw;
+        height: 35vh;
+    }
+
+}
+
+@media screen and (max-width: 700px){
+    .fourth-content-box-pic1{
+        width: 30vw;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .fourth-content-box-pic1 img{
+        width: 140px;
+    }
+
+    .fourth-content-box-pic2 img{
+        width: 90vw;
+        height: auto;
+    }
+}
