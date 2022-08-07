@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+  <meta name="generator" content="Hugo 0.101.0">
+  
+  <title>Navbar Template · Bootstrap v5.2</title>
+
+  <!--google font-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caladea:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet">
+
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/navbar.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg nav-color-home fixed-top" aria-label="Offcanvas navbar large"> <!--change here-->
+    <div class="container-fluid">
+      <a class="navbar-brand background-color-home font-type5" href="#">displaynone</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2"
+        aria-controls="offcanvasNavbar2">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-width offcanvas-end nav-color-home nav-a-link" tabindex="-1" id="offcanvasNavbar2"
+        aria-labelledby="offcanvasNavbar2Label">
+        <div class="offcanvas-header">
+          <!--<h5 class="offcanvas-title nav-color-home font-type3 text-dark" id="offcanvasNavbar2Label"></h5>-->
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+            aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item mx-3">
+              <a class="nav-link font-type5 font-color-home" aria-current="page" href="#">HOME</a>
+            </li>
+            <li class="nav-item dropdown mx-3 dropdown-transition">
+              <a class="nav-link dropdown-toggle font-type5 font-color-home" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                CULTURE
+              </a>
+              <ul class="dropdown-menu animated slideInd">
+                <li><a class="dropdown-item font-type5 font-color-home" href="#">Malaysia Culture</a></li>
+                <li><a class="dropdown-item font-type5 font-color-home" href="#">Japan Culture</a></li>
+                <li><a class="dropdown-item font-type5 font-color-home" href="#">Chinese Culture</a></li>
+                <li><a class="dropdown-item font-type5 font-color-home" href="#">Korean Culture</a></li>
+              </ul>
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link font-type5 font-color-home" href="#">ABOUT</a>
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link font-type5 font-color-home" href="#">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="nav-bookmark">
+      <a href=""><img src="images/home/icon2.png" alt=""></a>
+    </div>
+  </nav>
+<!--End Nav Bar-->
+
+<div class="container bg-dark" style="height:1000px;">
+
+</div>
+
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+
+</html>

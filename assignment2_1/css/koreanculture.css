@@ -1,0 +1,166 @@
+body {
+    max-width: 1800px;
+    background-color: #DAE2B6;
+}
+
+.font-type1 {
+    /*Heading*/
+    font-size: calc(3rem + .5vw) !important;
+    font-weight: 700;
+}
+
+.font-type2 {
+    /*Subheading 1*/
+    font-size: calc(2rem + .5vw) !important;
+    font-weight: 700;
+}
+
+.font-type3 {
+    /*Subheading 2*/
+    font-size: calc(1.5rem + .5vw) !important;
+    font-weight: 700;
+}
+
+.font-type4 {
+    /*Subheading 3*/
+    font-size: calc(1.0rem + .5vw) !important;
+    font-weight: 700;
+}
+
+.font-type5 {
+    /*Content font*/
+    font-size: 1.25rem !important;
+    font-weight: 400;
+}
+
+.font-type6 {
+    /*Button font*/
+    font-size: 1.0rem !important;
+}
+
+@media screen and (max-width: 450px) {
+
+    .font-type5 {
+        font-size: 1rem !important;
+    }
+
+    .font-type6 {
+        font-size: 0.9rem !important;
+    }
+}
+
+
+.para1color {
+    background-color: #C1DF82;
+    
+}
+
+.content-box {
+    max-width: 70%;
+    margin: auto;
+}
+
+
+.sameheight1 img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.sameheight2 {
+    height: 300px;
+}
+
+
+@media screen and (max-width:1200px) {
+    .content-box {
+        max-width: 90%;
+    }
+}
+
+@media screen and (max-width:990px) {
+    .sameheight1 img {
+        width: 100%;
+        height: 340px;
+        object-fit: cover;
+    }
+    
+    .sameheight2 {
+        height: 340px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .content-box {
+        max-width: 80%;
+        margin: auto;
+    }
+
+    .sameheight1 img {
+        height: auto;
+    }
+    
+    .sameheight2 {
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .content-box {
+        max-width: 90%;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .content-box {
+        max-width: 100%;
+        margin: auto;
+    }
+}
+
+.btn-bg-color1{
+    background: #9EBC5F;
+    border: #9EBC5F 3px solid;
+    transition: 0.3s;
+}
+
+.btn-bg-color1:hover{
+    background: #C1DF82;
+    border: #9EBC5F 3px solid;
+}
+
+
+.triangle-right {
+    top: 10%;
+    bottom: 80%;
+    left: 0px;
+	width: 0;
+	height: 0;
+	border-top: 15px solid transparent;
+	border-left: 20px solid #C1DF82;
+	border-bottom: 15px solid transparent;
+}
+
+
+.triangle-left {
+    top: 10%;
+    bottom: 80%;
+    right: 0px;
+	width: 0;
+	height: 0;
+	border-top: 15px solid transparent;
+	border-right: 20px solid #C1DF82;
+	border-bottom: 15px solid transparent;
+}
+
+.triangle-up {
+    bottom: 0px;
+    left: 80%;
+    right: 10%;
+	width: 0;
+	height: 0;
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	border-bottom: 20px solid #C1DF82;
+}
