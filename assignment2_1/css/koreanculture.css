@@ -120,14 +120,20 @@ body {
 }
 
 .btn-bg-color1{
-    background: #9EBC5F;
-    border: #9EBC5F 3px solid;
+    background: #4A8E40;
+    border: #4A8E40 3px solid;
     transition: 0.3s;
 }
-
+.btn-bg-color1 .color-text{
+    color: white;
+}
 .btn-bg-color1:hover{
     background: #C1DF82;
-    border: #9EBC5F 3px solid;
+    border: #4A8E40 3px solid;
+}
+
+.btn-bg-color1 .color-text:hover{
+    color: #4A8E40;
 }
 
 
