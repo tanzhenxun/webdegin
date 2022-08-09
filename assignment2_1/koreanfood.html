@@ -82,7 +82,7 @@
       variation of dishes for every season and palate. </div>
 
     <div class="d-flex align-items-center p-3 content-box box-bg-color1 flex-md-nowrap flex-wrap-reverse reveal-a">
-      <div class="col-md-6 col-12 px-sm-3 px-0 text-black pt-md-0 pt-2 reveal-b">
+      <div class="col-md-6 col-12 px-sm-3 px-0 text-black pt-md-0 pt-2 ">
         <div class="font-type4 border-bottom border-dark border-2 mb-2 py-3 pe-md-2 pe-0 text-md-start text-center">
           Classic Korean Bibimbap</div>
         <div
@@ -92,17 +92,17 @@
           garden. Koreans usually eat this rice dish with beef, but can also top bibimbap with a fried egg
           sunny-side-up.</div>
       </div>
-      <div class="col-md-6 col-12 picture-size text-md-start text-center reveal-b">
+      <div class="col-md-6 col-12 picture-size text-md-start text-center ">
         <img src="images/korean/bibimbap.png" alt="" class="shadow1">
         <!--Can change the image shadow-->
       </div>
     </div>
     <div class="d-flex align-items-center p-3 content-box box-bg-color2 mt-4 flex-md-nowrap flex-wrap reveal-a">
-      <div class="col-md-6 col-12 picture-size text-md-start text-center reveal-b">
+      <div class="col-md-6 col-12 picture-size text-md-start text-center ">
         <img src="images/korean/kimchi.png" alt="" class="shadow3">
         <!--Can change the image shadow-->
       </div>
-      <div class="col-md-6 col-12 px-sm-3 px-0 text-black pt-md-0 pt-2 reveal-b">
+      <div class="col-md-6 col-12 px-sm-3 px-0 text-black pt-md-0 pt-2 ">
         <div class="font-type4 border-bottom border-dark border-2 mb-2 py-3 pe-md-2 pe-0 text-md-start text-center">
           Kimchi</div>
         <div
@@ -114,7 +114,7 @@
       </div>
     </div>
     <div class="d-flex align-items-center p-3 content-box box-bg-color1 mt-4 flex-md-nowrap flex-wrap-reverse reveal-a">
-      <div class="col-md-6 col-12 px-sm-3 px-0 text-black pt-md-0 pt-2 reveal-b">
+      <div class="col-md-6 col-12 px-sm-3 px-0 text-black pt-md-0 pt-2 ">
         <div class="font-type4 border-bottom border-dark border-2 mb-2 py-3 pe-md-2 pe-0 text-md-start text-center">
           Budae Jjigae: Army Stew</div>
         <div
@@ -124,17 +124,17 @@
           beans from American army bases. The ingredients vary by recipe, but the best versions feature homemade broth
           and are served bubbling hot.</div>
       </div>
-      <div class="col-md-6 col-12 picture-size text-md-start text-center reveal-b">
+      <div class="col-md-6 col-12 picture-size text-md-start text-center ">
         <img src="images/korean/Budae-Jjigae.png" alt="" class="shadow1">
         <!--Can change the image shadow-->
       </div>
     </div>
     <div class="d-flex align-items-center p-3 content-box box-bg-color2 mt-4 flex-md-nowrap flex-wrap reveal-a">
-      <div class="col-md-6 col-12 picture-size text-md-start text-center reveal-b">
+      <div class="col-md-6 col-12 picture-size text-md-start text-center ">
         <img src="images/korean/samgyetang.png" alt="" class="shadow3">
         <!--Can change the image shadow-->
       </div>
-      <div class="col-md-6 col-12 px-sm-3 px-0 text-black pt-md-0 pt-2 reveal-b">
+      <div class="col-md-6 col-12 px-sm-3 px-0 text-black pt-md-0 pt-2 ">
         <div class="font-type4 border-bottom border-dark border-2 mb-2 py-3 pe-md-2 pe-0 text-md-start text-center">
           Samgyetang</div>
         <div
@@ -253,19 +253,6 @@
     }
 
     function reveal() {
-      var reveals = document.querySelectorAll(".reveal-b");
-
-      for (var i = 0; i < reveals.length; i++) {
-        var windowHeight = window.innerHeight;
-        var elementTop = reveals[i].getBoundingClientRect().top;
-        var elementVisible = 50;
-
-        if (elementTop < windowHeight - elementVisible) {
-          reveals[i].classList.add("active");
-        } else {
-          reveals[i].classList.remove("active");
-        }
-      }
       var reveals1 = document.querySelectorAll(".reveal-a");
 
       for (var i = 0; i < reveals1.length; i++) {
