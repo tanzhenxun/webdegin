@@ -195,6 +195,14 @@
     background-size: cover;
 }
 
+.text-color-link{
+    color: #4A8E40;
+}
+
+.text-color-link:hover{
+    color: #C1DF82;
+}
+
 @media screen and (max-width: 992px) {
     .activities_img_box1, .activities_img_box2{
         width: 100%;
