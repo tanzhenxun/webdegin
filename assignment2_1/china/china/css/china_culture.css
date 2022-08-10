@@ -166,11 +166,11 @@
 
 body{
   max-width: 1800px;
-  background-color: #FCC5C0;
+  background-color: #ffca3a;
 }
 
 .fourthback{
-	background-color: #FCC5C0;
+	background-color: #ffca3a;
 }
 
 .threeitem{
@@ -196,7 +196,7 @@ input{
 	justify-content: center;
 	align-items: center;
 	font-family: "Caladea", sans-serif;
-	background: linear-gradient(90deg, #e8A0BF 50%, #ba93d8 50%);
+	background: linear-gradient(90deg, #F99100 50%, #ffb703 50%);
 }
 .book{
 	display: flex;
@@ -230,7 +230,7 @@ input{
 	height: 100%;
 	top: 0;
 	left: 0;
-	background-color: #E8A0BF;
+	background-color: #F99100;
 	box-sizing: border-box;
 	padding: 0 13px;
 	box-shadow: inset 20px 0 50px rgba(0,0,0,0.5) 0 2px 5px rgba(0,0,0,.5);
