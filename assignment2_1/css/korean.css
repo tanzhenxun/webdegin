@@ -151,7 +151,7 @@
 
 /* Style the back side */
 .flip-card-back {
-  background-image: url(../images/korean/food_culture.png);
+  background-image: url(../images/korean/foodflip.jpg);
   background-size: cover;
   height: 170px;
   display: flex;
