@@ -62,11 +62,11 @@ body {
 @media screen and (max-width: 450px) {
 
   .font-type5{
-      font-size: 1rem!important;
+      font-size: 1.1rem!important;
   }
 
   .font-type6{
-      font-size: 0.9rem!important;
+      font-size: 1rem!important;
   }
 }
 
@@ -274,7 +274,7 @@ body {
 /*Top Heading container*/
 
 .top-background-home{
-  background-image: url(../images/home/background1.png);
+  background-image: url(../images/home/worldmapbackground.jpg);
   background-size: cover;
   padding: 10% 5%;
 }
@@ -325,7 +325,7 @@ body {
 }
 
 .nav-bookmark-korean img:hover{
-  background-color: #13d7d4;
+  background-color: #C1DF82;
 }
 
 .nav-color-korean{
@@ -406,20 +406,21 @@ body {
 }
 
 .top-background-korean-culture{
-  background-image: url(../images/home/korean.png);
+  background-image: url(../images/home/korean.jpg);
+  background-position: 55% 30%;
   background-size: cover;
   padding: 10% 5%;
 }
 
 .top-background-korean-food{
-  background-image: url(../images/home/kroeanfood.png);
+  background-image: url(../images/home/kroeanfood.jpg);
   background-position: center;
   background-size: cover;
   padding: 10% 5%;
 }
 
 .top-background-korean-festival{
-  background-image: url(../images/home/koreanfestival.png);
+  background-image: url(../images/home/koreanfestival.jpg);
   background-position: center;
   background-size: cover;
   padding: 10% 5%;
@@ -552,7 +553,7 @@ body {
 }
 
 .top-background-chinese-culture{
-  background-image: url(../images/home/china.png);
+  background-image: url(../images/home/china.jpg);
   background-position: center;
   background-size: cover;
   padding: 10% 5%;
@@ -609,7 +610,7 @@ body {
   top: 0px;
   width: calc(11rem + .5vw)!important;
   transition: 0.5s;
-  background-color: #7FB5FF;
+  background-color: #3F94F3;
   padding: 35px 15px 30px 15px; /*top right bottom left*/
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
@@ -636,7 +637,7 @@ body {
     to right,
     #131aeb,
     #131aeb 50%,
-    #7FB5FF 50%
+    #3F94F3 50%
   );
   background-size: 200% 100%;
   background-position: -100%;
@@ -669,7 +670,7 @@ body {
 }
 
 .bg-color-footer-malaysia{
-  background-color: #7FB5FF;
+  background-color: #3F94F3;
 }
 
 @media all and (max-width: 992px){
@@ -712,7 +713,7 @@ body {
 }
 
 .top-background-malaysia-festival{
-  background-image: url(../images/home/malaysia.png);
+  background-image: url(../images/home/malaysia.jpg);
   background-position: center;
   background-size: cover;
   padding: 10% 5%;
@@ -845,7 +846,7 @@ body {
 }
 
 .top-background-japan-culture{
-  background-image: url(../images/home/japan2.png);
+  background-image: url(../images/home/japan2.jpg);
   background-position: center;
   background-size: cover;
   padding: 10% 5%;
