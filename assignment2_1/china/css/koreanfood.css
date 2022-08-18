@@ -7,8 +7,6 @@ body{
 .fir-bg-color{
     background-color: #C1DF82;
 }
-
-
 .font-type1{ /*Heading*/
     font-size: calc(3rem + .5vw)!important;
     font-weight: 700;
@@ -147,4 +145,25 @@ body{
     }
 }
 
+.reveal-b{
+    position: relative;
+    transform: translateY(120px);
+    opacity: 0;
+    transition: 1.5s all ease;
+  }
+  .reveal-b.active{
+    transform: translateY(0);
+    opacity: 1;
+  }
 
+
+  .reveal-a{
+    position: relative;
+    transform: translateY(120px);
+    opacity: 0;
+    transition: 1.5s all ease;
+  }
+  .reveal-a.active{
+    transform: translateY(0);
+    opacity: 1;
+  }

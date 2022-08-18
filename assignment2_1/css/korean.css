@@ -7,7 +7,7 @@
   margin: 10px 20px;
   min-width: 230px;
   max-width: 295px;
-  min-height: 198px;
+  min-height: 184px;
   width: 100%;
   color: #ffffff;
   text-align: right;
@@ -31,7 +31,10 @@
   object-fit: cover;
   -webkit-transform: translate(0%, -50%);
   transform: translate(0%, -50%);
+  
 }
+
+
 .snip1482 figcaption {
   position: absolute;
   width: 50%;
@@ -95,13 +98,15 @@
 }
 
 .linkdecorate{
-  text-decoration: none;
+  
   color: black;
 }
 
 .linkdecorate a:active{
   color: black;
 }
+
+
 
 /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 .flip-card {
@@ -151,7 +156,7 @@
 
 /* Style the back side */
 .flip-card-back {
-  background-image: url(../images/korean/foodflip.jpg);
+  background-image: url(../images/japan/foodflip.jpg);
   background-size: cover;
   height: 170px;
   display: flex;
@@ -169,6 +174,10 @@
 
 body{
   max-width: 1800px;
+  background-color: #DAE2B6;
+}
+
+.containerbackcolor{
   background-color: #DAE2B6;
 }
 
@@ -236,7 +245,7 @@ input{
 	left: 0;
 	background-color: #C1DF82;
 	box-sizing: border-box;
-	padding: 0 13px;
+	padding: 0px 30px;
 	box-shadow: inset 20px 0 50px rgba(0,0,0,0.5) 0 2px 5px rgba(0,0,0,.5);
 }
 .back{
@@ -280,34 +289,12 @@ input{
 	z-index: 2;
 }
 
-.font-type2 {
-  /*Subheading 1*/
-  font-size: calc(2rem + .5vw) !important;
-  font-weight: 700;
-}
 
-.font-type3 {
-  /*Subheading 2*/
-  font-size: calc(1.5rem + .5vw) !important;
-  font-weight: 700;
-}
-
-.font-type5 {
-  /*Content font*/
-  font-size: 1.25rem !important;
-  font-weight: 400;
-}
-
-.font-type6 {
-  /*Button font*/
-  font-size: 1.0rem !important;
-}
 
 .para1color {
   background-color: #DAE2B6;
   
 }
-
 .content-box {
   max-width: 70%;
   margin: auto;
@@ -329,11 +316,21 @@ input{
 .btn-bg-color1 .color-text:hover{
   color: #9EBC5F;
 }
-
-
-.iconsmall{
-  width: 20px;
+.card-bg-color{
+  background: #9EBC5F;
 }
+
+.card-bg-color-border{
+  background-color: #9EBC5F;
+}
+
+
+.card_img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 
 @media screen and (max-width: 450px) {
 
@@ -354,7 +351,7 @@ input{
 
 
 
-@media screen and (max-width:888px){
+@media screen and (max-width:940px){
 	#cover{
 		width: 340px;
 		height: 360px;
@@ -393,16 +390,20 @@ input{
    
     
     }
-  .sixpic{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-  }
-
-  .sixpic2{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
+    .sixpic{
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+  
+    .sixpic2{
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+  
+  .twobook{
+    height: 600px;
   }
 
 }

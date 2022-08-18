@@ -124,7 +124,7 @@ body{
     background-image:  radial-gradient( #0000007e, rgba(245, 246, 252, 0)), url('../images/home/korean.jpg');
     background-repeat: no-repeat;
     background-size: 125%;
-    background-position:center;
+    background-position: 50% 25%;
     transition: 1s ease all;
     background-blend-mode:multiply;
   }
