@@ -2,6 +2,7 @@
 <html>
     <head>
         <title>Respone page</title>
+        <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/form_submit.css">
         <script src="https://kit.fontawesome.com/f9f6f2f33c.js" crossorigin="anonymous"></script>
@@ -9,6 +10,89 @@
         <link rel="shortcut icon" href="images/icon.png" type="image/x-icon">
     </head>
     <body>
-        <h1>Thank You For Your Respone</h1>
+        <div class="container">
+            <!--top navigation-->
+            <div class="topbackgrd">
+                <div class="topnvg">
+                    <a href="index.html"><p class="logo">TZXUN</p></a>
+                    <div class="leftbar">
+                        <div class="nvg">
+                            <a href="index.html">Home</a>
+                            <a href="aboutme.html">About</a>
+                            <a href="favourite.html">My Favourite</a>
+                            <a href="#">My Work</a>
+                            <a href="portfolio.html">My Portfolio</a>
+                        </div>
+                        <div id="myNav" class="dropdown">
+                            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i
+                                    class="fa-solid fa-xmark"></i></a>
+                            <div class="dropdown_lists">
+                                <a href="index.html">Home</a>
+                                <a href="aboutme.html">About</a>
+                                <a href="favourite.html">My Favourite</a>
+                                <a href="#">My Work</a> 
+                                <a href="portfolio.html">My Portfolio</a>
+                                <a href="contact.html">Contact</a>
+                            </div>
+                        </div>
+                        <div class="menubar" onclick="openNav()">
+                            <!--Give icon better and give top-->
+                            <i id="menuicon" class="fa-solid fa-bars"></i>
+                        </div>
+                    </div>
+                    <div class="contact">
+                        <a href="contact.html">Contact</a>
+                    </div>
+                </div>
+            </div>
+            <div class="text_bg">
+            <p class="text_form">Thank You For Your Respone!</p>
+            <img src="images/form_pic.png" alt="Thank Your Respone">
+        </div>
+    <!--Footer-->
+    <div class="footerbg">
+        <div class="footnvg">
+            <a href="#"><p class="ftlogo">TZXUN</p></a>
+            <div class="left">
+                <div class="nvg">
+                    <a href="index.html">Home</a>
+                    <a href="aboutme.html">About</a>
+                    <a href="favourite.html">My Favourite</a>
+                    <a href="#">My Work</a>
+                    <a href="portfolio.html">My Portfolio</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+            </div>
+        </div>
+        <div class="footmedia">
+            <div class="media">
+                <div class="ftmedia">
+                    <a href="https://github.com/tanzhenxun"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <div class="ftmedia">
+                    <a href="https://www.facebook.com/xun.tan.31/about"><i class="fa-brands fa-facebook"></i></a>
+                </div>
+                <div class="ftmedia">
+                    <a href="https://www.instagram.com/tan315_x18/?hl=en"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <div class="ftmedia">
+                    <a href="mailto:tanzhenxun1118@e.newera.edu.my"><i class="fa-solid fa-envelope"></i></a>
+                </div>
+            </div>
+            <div class="copyrgt">
+                <p>© 2022 TZXun.</p>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script>
+    function openNav() {
+        document.getElementById("myNav").style.height = "100%";
+    }
+    
+    function closeNav() {
+        document.getElementById("myNav").style.height = "0%";
+    }
+    </script>
     </body>
 </html>
