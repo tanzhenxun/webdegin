@@ -176,6 +176,16 @@ body {
     margin: auto;
 }
 
+@media screen and (max-width: 450px) {
+    .text_form{
+        font-size: 20px;
+    }
+    .text_bg img{
+        width: 200px;
+    }
+    
+}
+
 .footerbg {
     background-color: #B7CADB;
 }
