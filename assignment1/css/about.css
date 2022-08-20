@@ -7,6 +7,7 @@ body{
     width: auto;
 }
 
+
 .topbackgrd {
     background-color: #DAB88B;
     top: 0%;
@@ -20,7 +21,8 @@ body{
     align-items: center;
     justify-content: space-between;
     max-width: 1000vw;
-    font-size: 1.5vw;
+    font-size: calc(1.1rem + .2vw)!important;
+    padding: 0% 5%;
 }
 
 .topnvg a {
@@ -29,7 +31,6 @@ body{
 
 .logo {
     position: sticky;
-    margin: 2vw 0px 2vw 6vw;
     font-weight: 800;
     font-size: 30px;
     color: white;
@@ -37,17 +38,11 @@ body{
 
 .leftbar {
     display: flex;
-    margin-right: 7vw;
-}
-
-.topnvg .nvg {
-    padding: 0px 15px;
-    margin-right: 6vw;
 }
 
 .topnvg .nvg a {
-    margin-left: 15px;
-    margin-right: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
     color: rgb(255, 255, 255);
     text-decoration: none;
 }
@@ -57,10 +52,6 @@ body{
     text-decoration: none;
 }
 
-.contact {
-    margin-right: 3vw;
-
-}
 
 .contact a {
     background: rgba(255, 200, 171, 0.31);
@@ -81,8 +72,9 @@ body{
 }
 
 @media screen and (max-width: 850px) {
-    .topnvg .nvg {
-        margin-right: 0vw;
+
+    .topnvg {
+        font-size: calc(0.85rem + .2vw)!important;
     }
 }
 
@@ -166,6 +158,80 @@ body{
         top: 15px;
         right: 35px;
     }
+}
+
+
+
+.toptext {
+    background-image: url('../images/kopi.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0% 30%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: #DAB88B;
+}
+
+.toptext .text {
+    margin-left: 10vw;
+    font-size: 2.5vw;
+    font-weight: 800;
+    width: 50%;
+}
+
+
+.toptext .personlogo {
+    width: 50%;
+}
+
+.toptext .personlogo img {
+    border-radius: 50%;
+    width: 25vw;
+    padding: 10vw;
+}
+
+@media screen and (max-width: 450px) {
+    .toptext .text h1 {
+        margin: 40px 0px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .toptext {
+        background-image: url('../images/kopi1.png');
+        align-items: flex-start;
+        background-size: contain;
+        flex-direction: column-reverse;
+        background-position:top;
+    }
+
+    .toptext .personlogo {
+        width: 100%;
+    }
+
+    .toptext .personlogo img {
+        width: 50vw;
+        margin: 5vw 0vw 0vw 10vw;
+        padding: 0vw;
+    }
+
+    .toptext .text {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .toptext .text h1 {
+        font-size: 10vw;
+        margin: 50px 0px;
+    }
+
+    .toptext .text p {
+        font-size: 5vw;
+        line-height: 48px;
+    }
+
 }
 
 
@@ -382,12 +448,14 @@ hr.line2{
 
 @media screen and (max-width:700px) {
     .secondtext .text{
-        font-size: 2.3vw;
+        font-size: 3vw;
     }
     
     .secondtext .images img{
         border-radius: 20px;
-        width: 30vw;
+        width: 40vw;
+        height: 250px;
+        object-fit: cover;
     }
     
 }
@@ -417,6 +485,7 @@ hr.line2{
     .secondtext .text p{
         width: 90%;
         text-align: left;
+        font-size: 15px;
     }
     .secondtext .images{
         padding: 0px;
@@ -426,7 +495,7 @@ hr.line2{
     .secondtext .images img{
         border-radius: 30px;
         width: 70vw;
-        height: 50vh;
+        height: 250px;
         object-fit: cover;
     }
     
@@ -444,7 +513,8 @@ hr.line2{
 .thirdtext .text{
     background-image: url('../images/pexels-karolina-grabowska-4386404\ 1.png');
     background-repeat:no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;
+    background-position: center;
     border-radius: 30px;
     max-width: 80%;
 }
@@ -456,12 +526,16 @@ hr.line2{
 
 @media screen and (max-width: 700px) {
     .thirdtext .text p{
-        font-size: 2.3vw;
+        font-size: 3vw;
         padding: 80px;
     }
 }
 
 @media screen and (max-width: 500px) {
+    .thirdtext .text{
+        max-width: 90%;
+    }
+    
     .thirdtext .text p{
         font-size: 15px;
         padding: 50px;
@@ -478,7 +552,7 @@ hr.line2{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 1.5vw;
+    font-size: 1.8vw;
 }
 
 
@@ -488,7 +562,6 @@ hr.line2{
 
 .left .nvg a {
     margin-left: 15px;
-    margin-right: 15px;
     color: rgb(255, 255, 255);
     text-decoration: none;
 }
@@ -498,41 +571,51 @@ hr.line2{
     text-decoration: none;
 }
 
-.footnvg .ftlogo {
+.footnvg a{
+    text-decoration: none;
+}
+
+.ftlogo {
     color: white;
     font-weight: 800;
     margin-left: 2vw;
     font-size: 2vw;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 900px) {
+    .footnvg {
+        font-size: 1.0rem;
+    }
+
+    .ftlogo {
+        font-size: 1.4rem;
+    }
+}
+
+@media screen and (max-width: 610px) {
 
     .footerbg {
         padding: 10px 20px;
     }
-    
-    
+
     .footnvg {
         display: block;
         padding: 0px;
     }
-    
-    
+
     .left .nvg {
         padding: 0px;
         display: flex;
         flex-direction: column;
     }
-    
+
     .left .nvg a {
         font-size: 20px;
         line-height: 30px;
         margin: 0px;
     }
     
-
-    
-    .footnvg .ftlogo {
+    .ftlogo {
         margin: 2vw 0vw;
         font-size: 30px;
     }
@@ -540,30 +623,30 @@ hr.line2{
 
 
 
-.footmedia{
+.footmedia {
     display: flex;
     align-items: center;
     padding-bottom: 10px;
 }
 
-.media{
+.media {
     display: flex;
     align-items: center;
     width: 50%;
 }
 
-.media .ftmedia{
+.media .ftmedia {
     margin-left: 2vw;
     font-size: 30px;
 }
 
-.media .ftmedia i{
+.media .ftmedia i {
     color: white;
     font-size: 3vw;
-    
+
 }
 
-.copyrgt{
+.copyrgt {
     width: 50%;
     margin-right: 25px;
     text-align: right;
@@ -571,43 +654,59 @@ hr.line2{
     color: white;
 }
 
-.copyrgt p{
-    font-size: 1.5vw;
+.copyrgt p {
+    font-size: 1.8vw;
 }
 
-@media screen and (max-width:500px){
-    
-.footmedia{
-    display: block;
+@media screen and (max-width: 900px) {
+    .media .ftmedia i {
+        font-size: 30px;
+    }
+
+    .copyrgt p {
+        font-size: 1.0rem;
+    }
 }
 
-.media{
-    padding-top: 20px;
-    width: 60%;
-    justify-content: space-between;
+@media screen and (max-width:610px) {
+
+    .footmedia {
+        display: block;
+    }
+
+    .media {
+        padding-top: 20px;
+        width: 40%;
+        justify-content: space-between;
+    }
+
+    .media .ftmedia {
+        margin-left: 0vw;
+        font-size: 30px;
+    }
+
+    .media .ftmedia i {
+        font-size: 30px;
+
+    }
+
+    .copyrgt {
+        width: 100%;
+        margin-right: 25px;
+        text-align: left;
+        margin-bottom: -5px;
+        color: white;
+    }
 }
 
-.media .ftmedia{
-    margin-left: 0vw;
-    font-size: 30px;
-}
+@media screen and (max-width:500px) {
+    .media {
+        width: 60%;
+    }
 
-.media .ftmedia i{
-    font-size: 10vw;
-    
-}
-
-.copyrgt{
-    width: 100%;
-    margin-right: 25px;
-    text-align: left;
-    margin-bottom: -5px;
-    color: white;
-}
-
-.copyrgt p{
-    font-size: 6vw;
-}
+    .media .ftmedia i {
+        font-size: 35px;
+    }
 
 }
 

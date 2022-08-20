@@ -7,7 +7,7 @@
   margin: 10px 20px;
   min-width: 230px;
   max-width: 295px;
-  min-height: 184px;
+  min-height: 198px;
   width: 100%;
   color: #ffffff;
   text-align: right;
@@ -27,14 +27,9 @@
   top: 50%;
   opacity: 1;
   width: 100%;
-  height: 100%;
-  object-fit: cover;
   -webkit-transform: translate(0%, -50%);
   transform: translate(0%, -50%);
-  
 }
-
-
 .snip1482 figcaption {
   position: absolute;
   width: 50%;
@@ -62,7 +57,6 @@
 .snip1482:hover .tpic,
 .snip1482.hover .tpic {
   width: 55%;
-  height: 55%;
   right: -10%;
 }
 
@@ -98,15 +92,12 @@
 }
 
 .linkdecorate{
-  
   color: black;
 }
 
 .linkdecorate a:active{
   color: black;
 }
-
-
 
 /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 .flip-card {
@@ -156,7 +147,7 @@
 
 /* Style the back side */
 .flip-card-back {
-  background-image: url(../images/japan/foodflip.jpg);
+  background-image: url(../images/foodflip.jpg);
   background-size: cover;
   height: 170px;
   display: flex;
@@ -174,15 +165,14 @@
 
 body{
   max-width: 1800px;
-  background-color: #DAE2B6;
+  background-color: #ffca3a;
 }
-
 .containerbackcolor{
-  background-color: #DAE2B6;
+  background-color: #ffca3a;
 }
 
 .fourthback{
-	background-color: #DAE2B6;
+	background-color: #ffca3a;
 }
 
 .threeitem{
@@ -204,12 +194,12 @@ input{
 .twobook{
   margin: 0;
 	padding: 0;
-	height: 80vh;
+	height: 650px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	font-family: "Caladea", sans-serif;
-	background: linear-gradient(90deg, #C1DF82 50%, #9EBC5F 50%);
+	background: linear-gradient(90deg, #F99100 50%, #ffb703 50%);
 }
 .book{
 	display: flex;
@@ -243,7 +233,7 @@ input{
 	height: 100%;
 	top: 0;
 	left: 0;
-	background-color: #C1DF82;
+	background-color: #F99100;
 	box-sizing: border-box;
 	padding: 0px 30px;
 	box-shadow: inset 20px 0 50px rgba(0,0,0,0.5) 0 2px 5px rgba(0,0,0,.5);
@@ -289,39 +279,33 @@ input{
 	z-index: 2;
 }
 
-
-
 .para1color {
-  background-color: #DAE2B6;
+  background-color: #E8A0BF;
   
 }
+
 .content-box {
   max-width: 70%;
   margin: auto;
 }
 
 .btn-bg-color1{
-  background: #9EBC5F;
-  border: #9EBC5F 3px solid;
+  background: #ECD6AC;
+  border: #ECD6AC 3px solid;
   transition: 0.3s;
 }
-.btn-bg-color1 .color-text{
-  color: white;
-}
+
 .btn-bg-color1:hover{
-  background: #C1DF82;
-  border: #9EBC5F 3px solid;
+  background: #faa906;
+  border: #ECD6AC 3px solid;
 }
 
-.btn-bg-color1 .color-text:hover{
-  color: #9EBC5F;
-}
 .card-bg-color{
-  background: #9EBC5F;
+  background: #faa906;
 }
 
 .card-bg-color-border{
-  background-color: #9EBC5F;
+  background-color: #faa906;
 }
 
 .heightlimit{
@@ -331,18 +315,6 @@ input{
 }
 
 
-
-@media screen and (max-width: 450px) {
-
-  .font-type5 {
-      font-size: 1rem !important;
-  }
-
-  .font-type6 {
-      font-size: 0.9rem !important;
-  }
-}
-
 @media screen and (max-width:1200px) {
   .content-box {
       max-width: 90%;
@@ -351,7 +323,7 @@ input{
 
 
 
-@media screen and (max-width:940px){
+@media screen and (max-width:888px){
 	#cover{
 		width: 340px;
 		height: 360px;
@@ -365,7 +337,7 @@ input{
 }
 
 @media screen and (max-width:775px){
-  .samurai{
+  .lantern{
     display: none;
   }
 }
@@ -390,18 +362,18 @@ input{
    
     
     }
-    .sixpic{
-      height: 100%;
-      width: 100%;
-      object-fit: cover;
-    }
-  
-    .sixpic2{
-      height: 100%;
-      width: 100%;
-      object-fit: cover;
-    }
-  
+  .sixpic{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .sixpic2{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+
   .twobook{
     height: 600px;
   }
