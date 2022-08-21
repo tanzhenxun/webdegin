@@ -1,5 +1,6 @@
 body{
     margin: auto;
+    max-width: 1900px;
     font-family: 'Lato', sans-serif;
 }
 
@@ -251,8 +252,9 @@ body{
 }
 
 .about p {
-    margin: 0px 20vw;
+    margin: 0px 20%;
     font-size: 20px;
+
 }
 
 @media screen and (max-width:700px) {
@@ -290,6 +292,7 @@ body{
 }
 
 .secondcontent .images img {
+    max-width: 600px;
     width: 40vw;
     border-radius: 10%;
 }
@@ -297,7 +300,7 @@ body{
 .secondcontent .text {
     font-style: normal;
     font-weight: 800;
-    font-size: 1.5vw;
+    font-size: 1.5rem;
     line-height: 30px;
     color: #5C2000;
     max-width: 500px;
@@ -366,7 +369,7 @@ hr {
 }
 
 .firtext {
-    font-size: 1.8vw;
+    font-size: 1.5rem;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -429,7 +432,7 @@ hr {
 .secondtext .text{
     width: 50%;
     color: #5C2000;
-    font-size: 1.8vw;
+    font-size: 2rem;
 }
 
 .secondtext .images{
@@ -440,6 +443,7 @@ hr {
 .secondtext .images img{
     border-radius: 20px;
     width: 30vw;
+    max-width: 600px;
 }
 
 hr.line2{
@@ -516,11 +520,11 @@ hr.line2{
     background-size: cover;
     background-position: center;
     border-radius: 30px;
-    max-width: 80%;
+    width: 80%;
 }
 
 .thirdtext .text p{
-    font-size: 1.8vw;
+    font-size: 2rem;
     padding: 100px;
 }
 
@@ -552,7 +556,7 @@ hr.line2{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 1.8vw;
+    font-size: 1.5rem;
 }
 
 
@@ -579,7 +583,7 @@ hr.line2{
     color: white;
     font-weight: 800;
     margin-left: 2vw;
-    font-size: 2vw;
+    font-size: 2rem;
 }
 
 @media screen and (max-width: 900px) {
@@ -637,12 +641,12 @@ hr.line2{
 
 .media .ftmedia {
     margin-left: 2vw;
-    font-size: 30px;
+    font-size: 1rem;
 }
 
 .media .ftmedia i {
     color: white;
-    font-size: 3vw;
+    font-size: 2rem;
 
 }
 
@@ -655,7 +659,7 @@ hr.line2{
 }
 
 .copyrgt p {
-    font-size: 1.8vw;
+    font-size: 1.5rem;
 }
 
 @media screen and (max-width: 900px) {

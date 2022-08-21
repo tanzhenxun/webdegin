@@ -1,4 +1,5 @@
 body {
+    max-width: 1900px;
     margin: auto;
     font-family: 'Lato', sans-serif;
 }
@@ -212,7 +213,7 @@ body {
 .firtext {
     display: flex;
     justify-content: center;
-    font-size: 2vw;
+    font-size: 2rem;
     
 }
 
@@ -240,7 +241,7 @@ body {
 }
 
 .box1 .text {
-    font-size: 2vw;
+    font-size: 2rem;
     max-width: 100%;
 }
 
@@ -381,6 +382,7 @@ ul{
 
 .fourthcontent .box1 .img img {
     width: 25vw;
+    max-width: 500px;
     height: auto;
     object-fit: cover;
     border-radius: 0px;
@@ -405,6 +407,7 @@ ul{
 }
 
 
+
 .footerbg {
     background-color: #B7CADB;
 }
@@ -413,7 +416,7 @@ ul{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 1.8vw;
+    font-size: 1.5rem;
 }
 
 
@@ -440,7 +443,7 @@ ul{
     color: white;
     font-weight: 800;
     margin-left: 2vw;
-    font-size: 2vw;
+    font-size: 2rem;
 }
 
 @media screen and (max-width: 900px) {
@@ -498,12 +501,12 @@ ul{
 
 .media .ftmedia {
     margin-left: 2vw;
-    font-size: 30px;
+    font-size: 1rem;
 }
 
 .media .ftmedia i {
     color: white;
-    font-size: 3vw;
+    font-size: 2rem;
 
 }
 
@@ -516,7 +519,7 @@ ul{
 }
 
 .copyrgt p {
-    font-size: 1.8vw;
+    font-size: 1.5rem;
 }
 
 @media screen and (max-width: 900px) {
@@ -570,3 +573,4 @@ ul{
     }
 
 }
+

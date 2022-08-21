@@ -1,4 +1,5 @@
 body {
+    max-width: 1900px;
     margin: auto;
     font-family: 'Lato', sans-serif;
 }
@@ -168,32 +169,43 @@ body {
     background-position: 0% 30%;
     align-items: center;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     color: white;
     background-color: #DAB88B;
 }
 
 .toptext .text {
-    margin-left: 10vw;
-    font-size: 2.5vw;
+    margin-left: 10%;
+    font-size: 2.5rem;
     font-weight: 800;
     width: 50%;
+    max-width: 600px;
 }
 
 
 .toptext .personlogo {
     width: 50%;
+    max-width: 600px;
+    text-align: center;
 }
 
 .toptext .personlogo img {
     border-radius: 50%;
     width: 25vw;
-    padding: 10vw;
+    max-width: 600px;
+    padding: 20% ;
 }
 
-@media screen and (max-width: 450px) {
-    .toptext .text h1 {
-        margin: 40px 0px;
+@media screen and (max-width: 1200px) {
+    .toptext .text {
+        margin-left: 10%;
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .toptext .text {
+        font-size: 1rem;
     }
 }
 
@@ -245,7 +257,7 @@ body {
     color: rgba(167, 115, 45, 0.77);
     font-style: normal;
     font-weight: 800;
-    font-size: 2vw;
+    font-size: 25px;
 }
 
 .secondbg h1 {
@@ -267,6 +279,8 @@ body {
 
 .secondpic img {
     width: 35vw;
+    height: 300px;
+    max-width: 600px;
     object-fit: cover;
     border-radius: 23px;
 }
@@ -274,11 +288,15 @@ body {
 .secondtext .content {
     font-style: normal;
     font-weight: 800;
-    font-size: 1.8vw;
+    font-size: calc(1.1rem + .2vw)!important;
     line-height: 40px;
     color: #5C2000;
     padding-right: 50px;
     width: 50%;
+}
+
+.secondtext .content p{
+    width: 80%;
 }
 
 .button a {
@@ -286,11 +304,16 @@ body {
     border: 6px solid rgba(255, 255, 255, 0.295743);
     border-radius: 6px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    font-size: 1.5vw;
-    padding: 0.5vh 1vw;
+    padding: 1% 2%;
     text-align: center;
     text-decoration: none;
     color: rgba(85, 30, 0, 0.79);
+}
+
+@media screen and (max-width:1200px){
+    .secondhd {
+        font-size: 19px;
+    }
 }
 
 @media screen and (max-width: 800px) {
@@ -298,8 +321,23 @@ body {
         line-height: 20px;
     }
 
+    .secondhd {
+        font-size: 15px;
+    }
+    
+
     .secondpic img {
         border-radius: 5%;
+            height: 200px;
+    }
+
+    .secondtext .content{
+        font-size: calc(0.8rem + .2vw)!important;
+        line-height: 30px;
+    }
+    
+    .secondtext .content p{
+        width: 100%;
     }
 
 }
@@ -320,6 +358,7 @@ body {
     }
 
     .secondpic img {
+        height: auto;
         max-width: 80%;
         width: auto;
     }
@@ -333,7 +372,8 @@ body {
     }
 
     .secondtext .content p {
-        margin: 0px 20px;
+        width: 90%;
+        margin: auto;
         text-align: left;
     }
 
@@ -354,13 +394,13 @@ body {
     color: rgba(167, 115, 45, 0.77);
     font-style: normal;
     font-weight: 800;
-    font-size: 2vw;
+    font-size: 25px;
 }
 
 .thirdhd h1 {
     margin: 0px;
     padding-top: 30px;
-    padding-left: 5vw;
+    padding-left: 8%;
 }
 
 .thirdbg .pic {
@@ -371,11 +411,14 @@ body {
 
 .thirdbg .pic .box {
     margin: 30px 0px;
+    max-width: 600px;
 }
 
 .thirdbg .pic .box img {
     width: 25vw;
     height: 60vh;
+    max-width: 600px;
+    max-height: 600px;
     object-fit: cover;
 }
 
@@ -384,7 +427,7 @@ body {
     color: #5C2000;
     font-style: normal;
     font-weight: 800;
-    font-size: 2.5vw;
+    font-size: calc(1.1rem + .2vw)!important;
     margin: 0px;
 }
 
@@ -392,9 +435,15 @@ body {
     text-decoration: none;
 }
 
+@media screen and (max-width:1200px){
+    .thirdhd {
+        font-size: 19px;
+    }
+}
+
 @media screen and (max-width: 900px) {
     .thirdhd {
-        font-size: 2vw;
+        font-size: 20px;
     }
 
     .thirdbg .pic .box img {
@@ -407,13 +456,22 @@ body {
 
 @media screen and (max-width: 800px) {
     .thirdhd {
-        font-size: 2.5vw;
+        
+        font-size: 15px;
     }
 
     .thirdbg .pic .box img {
         width: 25vw;
         height: 35vh;
         object-fit: cover;
+    }
+    .thirdbg .pic .box p {
+        text-align: center;
+        color: #5C2000;
+        font-style: normal;
+        font-weight: 800;
+        font-size: calc(0.8rem + .2vw)!important;
+        margin: 0px;
     }
 
 }
@@ -453,7 +511,7 @@ body {
 }
 
 .fourthbg img {
-    width: 65vw;
+    width: 55vw;
 }
 
 .fourthtext {
@@ -463,25 +521,40 @@ body {
     line-height: 30px;
     margin: 0px;
     padding: 0vw 3vw;
+    font-size: 25px;
 }
 
 
 .fourthtext h1 {
     padding-bottom: 20px;
-    font-size: 3.5vw;
 }
 
 .fourthtext p {
     color: #5C2000;
-    font-size: 2vw;
+    font-size: calc(1.1rem + .2vw)!important;
     line-height: 30px;
 }
 
 #work a {
-    padding: 0.5vh 1.5vw;
+    padding: 1% 2%;
     font-size: 15px;
 }
 
+@media screen and (max-width: 1200px){
+    .fourthtext {
+        font-size: 19px;
+    }
+}
+@media screen and (max-width: 800px) {
+    .fourthtext p {
+        font-size: calc(0.8rem + .2vw)!important;
+    }
+
+    .fourthtext {
+        font-size: 19px;
+    }
+    
+}
 
 @media screen and (max-width: 700px) {
 
@@ -494,10 +567,6 @@ body {
         padding-bottom: 0px;
         margin: 10px 0px;
         font-size: 30px;
-    }
-
-    .fourthtext p {
-        font-size: 2.5vw;
     }
 
     #work a {
@@ -542,7 +611,7 @@ body {
     color: rgba(167, 115, 45, 0.77);
     font-style: normal;
     font-weight: 800;
-    font-size: 2vw;
+    font-size: 25px;
 }
 
 .fifthhd h1 {
@@ -559,13 +628,14 @@ body {
 .fifthtext .text {
     width: 40%;
     font-weight: 800;
-    padding: 0px 3vw 0vw 10vw;
+    padding: 0px 5% 0vw 10%;
 }
 
 .fifthtext .text p {
     color: #5C2000;
-    font-size: 2vw;
+    font-size: calc(1.1rem + .2vw)!important;
     line-height: 35px;
+    max-width: max-content;
 }
 
 .fifthtext .pic {
@@ -573,26 +643,34 @@ body {
 }
 
 .fifthtext .pic img {
-    width: 40vw;
-    padding: 40px 10px;
-    border-radius: 63px;
+    width: 41vw;
+    height: 287px;
+    padding: 5% 2%;
+    border-radius: 43px;
+    max-width: 600px;
+    max-height: 600px;
 }
 
 #portfolio a {
-    padding: 0.5vh 1.5vw;
+    padding: 1% 2%;
     font-size: 15px;
 }
 
-@media screen and (max-width: 700px) {
-    .fifthhd {
-        font-size: 15px;
-    }
+@media screen and (max-width: 1200px){
 
+    .fifthhd {
+        font-size: 19px;
+    }
+}
+
+@media screen and (max-width:800px){
+    .fifthhd {
+        font-size: 19px;
+    }
     .fifthtext .text p {
-        font-size: 3vw;
+        font-size: calc(0.8rem + .2vw)!important;
         line-height: 25px;
     }
-
 }
 
 @media screen and (max-width: 500px) {
@@ -678,15 +756,18 @@ input[type=submit] {
     color: white;
     background-color: #506D84;
     border-radius: 6px;
-    padding: 2vh 3vw;
+    padding: 3% 8%;
     float: right;
     border: 0px;
 }
 
+
 .sixthtext .text {
     font-style: normal;
     font-weight: 800;
-    font-size: 1.5vw;
+    font-size: calc(1.1rem + .2vw)!important;
+    inline-size: auto;
+    overflow-wrap: anywhere;
 }
 
 .sixthtext .text h1 {
@@ -719,6 +800,10 @@ input[type=submit] {
     color: #5C2000;
 }
 
+.header_form h1{
+    text-align: left;
+}
+
 @media screen and (max-width: 1100px) {
     .sixthtext .text .round i {
         width: 4vw;
@@ -740,7 +825,7 @@ input[type=submit] {
     }
 
     .sixthtext .text {
-        font-size: 2vw;
+        font-size: calc(0.8rem + .2vw)!important;
     }
 
     .sixthtext .text h1 {
@@ -778,10 +863,14 @@ input[type=submit] {
         font-size: 4vw;
     }
 
+    .header_form h1{
+        text-align: center;
+    }
 
     .sixthtext .text {
         font-size: 3.5vw;
         text-align: center;
+        overflow-wrap: normal;
     }
 
     .sixthtext .text h1 {
@@ -824,6 +913,8 @@ input[type=submit] {
 
 
 
+
+
 .footerbg {
     background-color: #B7CADB;
 }
@@ -832,7 +923,7 @@ input[type=submit] {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 1.8vw;
+    font-size: 1.5rem;
 }
 
 
@@ -859,7 +950,7 @@ input[type=submit] {
     color: white;
     font-weight: 800;
     margin-left: 2vw;
-    font-size: 2vw;
+    font-size: 2rem;
 }
 
 @media screen and (max-width: 900px) {
@@ -917,12 +1008,12 @@ input[type=submit] {
 
 .media .ftmedia {
     margin-left: 2vw;
-    font-size: 30px;
+    font-size: 1rem;
 }
 
 .media .ftmedia i {
     color: white;
-    font-size: 3vw;
+    font-size: 2rem;
 
 }
 
@@ -935,7 +1026,7 @@ input[type=submit] {
 }
 
 .copyrgt p {
-    font-size: 1.8vw;
+    font-size: 1.5rem;
 }
 
 @media screen and (max-width: 900px) {
@@ -989,3 +1080,4 @@ input[type=submit] {
     }
 
 }
+

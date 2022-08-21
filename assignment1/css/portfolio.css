@@ -1,4 +1,5 @@
 body {
+    max-width: 1900px;
     margin: auto;
     font-family: 'Lato', sans-serif;
 }
@@ -385,6 +386,8 @@ body {
 
 
 
+
+
 .footerbg {
     background-color: #B7CADB;
 }
@@ -393,7 +396,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 1.8vw;
+    font-size: 1.5rem;
 }
 
 
@@ -420,7 +423,7 @@ body {
     color: white;
     font-weight: 800;
     margin-left: 2vw;
-    font-size: 2vw;
+    font-size: 2rem;
 }
 
 @media screen and (max-width: 900px) {
@@ -478,12 +481,12 @@ body {
 
 .media .ftmedia {
     margin-left: 2vw;
-    font-size: 30px;
+    font-size: 1rem;
 }
 
 .media .ftmedia i {
     color: white;
-    font-size: 3vw;
+    font-size: 2rem;
 
 }
 
@@ -496,7 +499,7 @@ body {
 }
 
 .copyrgt p {
-    font-size: 1.8vw;
+    font-size: 1.5rem;
 }
 
 @media screen and (max-width: 900px) {
@@ -550,3 +553,4 @@ body {
     }
 
 }
+
